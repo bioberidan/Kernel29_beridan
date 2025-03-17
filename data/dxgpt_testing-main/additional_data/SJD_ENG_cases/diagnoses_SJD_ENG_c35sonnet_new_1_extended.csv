@@ -1,0 +1,596 @@
+GT,Diagnosis 1
+Enfermedad de Hirschsprung - ORPHA: 388,"I'll analyze this case as a doctor and provide potential diagnoses based on the symptoms presented:
+
+
++1. Hirschsprung's Disease:
+Common symptoms: Abdominal distension, poor feeding, delayed passage of meconium, constipation since birth
+Missing symptoms: Enterocolitis, failure to thrive (though weight stagnation is present)
+
++2. Intestinal Malrotation:
+Common symptoms: Abdominal distension, feeding intolerance
+Missing symptoms: Bilious vomiting, severe acute pain
+
++3. Necrotizing Enterocolitis:
+Common symptoms: Abdominal distension, feeding intolerance
+Missing symptoms: Fever, bloody stools, pneumatosis intestinalis on X-ray
+
++4. Functional Intestinal Obstruction:
+Common symptoms: Abdominal distension, decreased intake
+Missing symptoms: Vomiting, complete obstruction signs on X-ray
+
++5. Sepsis:
+Common symptoms: Poor feeding, irritability
+Missing symptoms: Fever, elevated acute phase reactants, leukocytosis
+
++6. Metabolic Disorder:
+Common symptoms: Poor feeding, metabolic acidosis
+Missing symptoms: Severe clinical deterioration, specific metabolic alterations
+
+Given the clinical presentation, age of onset, and particularly the history of no stools in the first hours of life combined with persistent feeding issues and abdominal distension, Hirschsprung's Disease appears to be the most likely diagnosis among these options."
+Hepatitis autoimmune type 1 - ORPHA: 563576,"I'll analyze this case as a doctor and provide potential diagnoses:
+
++1. Autoimmune Hepatitis:
+Common symptoms: Elevated liver enzymes (AST/ALT), jaundice, hepatomegaly
+Missing symptoms: Usually presents with fatigue, typically affects older children/adults
+
++2. Viral Hepatitis A (Acute):
+Common symptoms: Jaundice, hepatomegaly, elevated liver enzymes
+Missing symptoms: Active infection ruled out (IgM negative)
+
++3. Drug-Induced Liver Injury:
+Common symptoms: Elevated liver enzymes, jaundice, pruritus
+Missing symptoms: No history of medication use provided
+
++4. Wilson's Disease:
+Common symptoms: Liver dysfunction, elevated liver enzymes
+Missing symptoms: Usually presents in older children, no Kayser-Fleischer rings mentioned
+
++5. Progressive Familial Intrahepatic Cholestasis (PFIC):
+Common symptoms: Jaundice, pruritus, pale stools, hepatomegaly, elevated bilirubin and liver enzymes
+Missing symptoms: None significant - this is highly compatible
+
+Given the age of presentation, symptoms (particularly pruritus, jaundice, pale stools), and laboratory findings, Progressive Familial Intrahepatic Cholestasis (PFIC) appears to be the most likely diagnosis. The combination of severe pruritus, elevated bile acids, and normal GGT is particularly suggestive of PFIC type 1 or 2."
+Congenital diaphragmatic hernia - ORPHA: 2140,"Based on the symptoms and findings, I'll analyze potential diagnoses:
+
++1. Congenital Diaphragmatic Hernia (CDH):
+Common symptoms present: Hypophonesis of left hemithorax, presence of intestinal loops in left hemithorax, collapsed ipsilateral lung
+Symptoms not present: Usually presents in newborn period, respiratory distress (which patient doesn't have)
+
++2. Pneumonia with Parapneumonic Effusion:
+Common symptoms present: Fever, cough, elevated CRP, infiltrates in right lung
+Symptoms not present: No clear effusion visible, symptoms too prolonged for typical pneumonia
+
++3. Tuberculosis:
+Common symptoms present: Prolonged fever, cough, constitutional symptoms
+Symptoms not present: No clear TB exposure history, vaccination status up to date
+
++4. Foreign Body Aspiration:
+Common symptoms present: Cough, unilateral chest findings
+Symptoms not present: Acute onset typically, no clear choking episode reported
+
++5. Empyema:
+Common symptoms present: Fever, cough, elevated inflammatory markers
+Symptoms not present: No clear pleural fluid collection visible
+
+The most likely diagnosis based on imaging and clinical presentation is Congenital Diaphragmatic Hernia (CDH) with superimposed respiratory infection, as evidenced by the radiological findings of intestinal loops in the left hemithorax and the associated symptoms."
+Cystic fibrosis - ORPHA: 586,"Based on the symptoms provided, I'll analyze potential diagnoses:
+
++1. Vitamin B12 Deficiency Anemia:
+Common symptoms: Macrocytic anemia, pallor, failure to thrive
+Missing symptoms: Neurological symptoms, glossitis
+
++2. Cow's Milk Protein Allergy:
+Common symptoms: Vomiting, dyspeptic stools, failure to thrive, mixed feeding
+Missing symptoms: Skin rashes, respiratory symptoms
+
++3. Gastroesophageal Reflux Disease (GERD):
+Common symptoms: Vomiting after feeds, irritability
+Missing symptoms: Respiratory symptoms, arching of back
+
++4. Congenital Heart Disease:
+Common symptoms: Systolic murmur, failure to thrive, pallor
+Missing symptoms: Cyanosis, respiratory distress
+
++5. Metabolic Disorders:
+Common symptoms: Failure to thrive, vomiting, feeding difficulties
+Missing symptoms: Lethargy, metabolic acidosis
+
++6. Folic Acid Deficiency:
+Common symptoms: Macrocytic anemia, poor growth
+Missing symptoms: Neural tube defects
+
++7. Diamond-Blackfan Anemia:
+Common symptoms: Macrocytic anemia, pallor
+Missing symptoms: Congenital anomalies, thumb abnormalities
+
++8. Nutritional Deficiency:
+Common symptoms: Anemia, poor weight gain, pallor
+Missing symptoms: Other vitamin deficiency signs
+
+The most probable diagnosis given the clinical picture would be Vitamin B12 Deficiency Anemia, especially considering the macrocytic anemia and failure to thrive in an infant with mixed feeding."
+Aicardi-Goutières syndrome - ORPHA: 51 (Leucodistrofia),"I'll analyze this case as a doctor and provide potential diagnoses:
+
+
++1. Leigh Syndrome:
+Common symptoms: hypotonia, developmental regression, psychomotor retardation
+Missing symptoms: typically presents with respiratory problems, which are not mentioned here
+MRI findings match: basal ganglia involvement is characteristic
+
++2. Mitochondrial Encephalopathy:
+Common symptoms: hypotonia, developmental delay, neurological regression
+Missing symptoms: typically presents with lactic acidosis (not mentioned in labs)
+MRI findings match: basal ganglia involvement
+
++3. Aicardi-Goutières Syndrome:
+Common symptoms: microcephaly, developmental regression, CSF pleocytosis
+Missing symptoms: typically presents with hepatosplenomegaly (not present)
+MRI findings match: calcifications in basal ganglia
+Additional match: increased neopterins in CSF
+
++4. TORCH Infections (particularly CMV):
+Common symptoms: microcephaly, developmental issues, neurological symptoms
+Missing symptoms: typically presents with hepatosplenomegaly and rash (not present)
+MRI findings match: calcifications
+
++5. Biotinidase Deficiency:
+Common symptoms: hypotonia, developmental regression
+Missing symptoms: typically presents with skin rash and hearing problems (not mentioned)
+MRI findings partially match: can show white matter changes
+
++6. Cerebral Palsy:
+Common symptoms: hypotonia, hypertonia of extremities, developmental delay
+Missing symptoms: usually doesn't present with acute regression
+MRI findings don't typically match this pattern
+
+Given the combination of symptoms, particularly the CSF findings and MRI results, Aicardi-Goutières Syndrome appears to be the most likely diagnosis, but further genetic testing would be recommended for confirmation."
+Sanfilippo Syndrome Type A - ORPHA: 79269 (Mucopolysaccharidosis type III - ORPHA: 581),"I'll analyze this case and provide potential diagnoses based on the symptoms presented:
+
++1. Mucopolysaccharidosis Type III (Sanfilippo Syndrome):
+Common symptoms present:
+- Developmental regression after normal early development
+- Loss of speech
+- Behavioral problems
+- Coarse facial features
+- Sleep disturbances
+- Elevated GAGs in urine
+Missing symptoms:
+- Aggressive behavior (not mentioned)
+- Hyperactivity (not mentioned)
+
++2. Metachromatic Leukodystrophy:
+Common symptoms present:
+- Progressive loss of motor skills
+- Developmental regression
+- Difficulty walking
+- Loss of speech
+Missing symptoms:
+- Seizures (not mentioned)
+- Muscle rigidity (not specifically mentioned)
+
++3. Niemann-Pick Disease Type C:
+Common symptoms present:
+- Progressive neurological deterioration
+- Ataxia
+- Dysphagia
+- Developmental regression
+Missing symptoms:
+- Vertical gaze palsy (not mentioned)
+- Gelastic cataplexy (not mentioned)
+
++4. GM1 Gangliosidosis:
+Common symptoms present:
+- Developmental regression
+- Coarse facial features
+- Hepatomegaly
+- Progressive neurological deterioration
+- Abnormal oligosaccharides in urine
+Missing symptoms:
+- Cherry red spots in eyes (not mentioned)
+- Skeletal abnormalities (not specifically mentioned)
+
++5. Multiple Sulfatase Deficiency:
+Common symptoms present:
+- Developmental regression
+- Loss of motor skills
+- Coarse facial features
+- Elevated GAGs
+Missing symptoms:
+- Ichthyosis (not mentioned)
+- Hearing loss (not specifically mentioned)"
+Sarcoma of bland parts - ORPHA: 3394,"I'll analyze the symptoms and provide potential diagnoses:
+
++1. Guillain-Barré Syndrome (GBS):
+Common symptoms: Lower extremity hypotonia, absent reflexes, motor weakness
+Missing symptoms: Usually acute onset, typically affects both upper and lower extremities, often follows infection
+
++2. Spinal Muscular Atrophy (SMA):
+Common symptoms: Progressive muscle weakness, hypotonia, delayed motor development
+Missing symptoms: Usually affects upper extremities as well, family history typically present
+
++3. Chronic Inflammatory Demyelinating Polyneuropathy (CIDP):
+Common symptoms: Motor weakness, absent reflexes, altered neurography
+Missing symptoms: Usually affects upper extremities, typically presents in older children
+
++4. Charcot-Marie-Tooth Disease:
+Common symptoms: Lower extremity weakness, altered neurography, hypotonia
+Missing symptoms: Usually has family history, typically affects hands as well
+
++5. Tethered Cord Syndrome:
+Common symptoms: Lower extremity weakness, urinary problems, motor delay
+Missing symptoms: Usually presents with back pain, skin changes over spine
+
++6. Myelitis:
+Common symptoms: Lower extremity weakness, bladder dysfunction
+Missing symptoms: Usually more acute onset, often has sensory symptoms
+
++7. Hereditary Motor Neuropathy:
+Common symptoms: Progressive lower limb weakness, altered neurography
+Missing symptoms: Usually has family history, typically later onset
+
++8. Metabolic Myopathy:
+Common symptoms: Motor delay, muscle weakness, weight stagnation
+Missing symptoms: Usually affects multiple muscle groups, often has other metabolic symptoms"
+Nephroblastoma - ORPHA: 654,"I'll analyze this case as a doctor and provide potential diagnoses:
+
++1. Acute Leukemia:
+Common symptoms: Splenomegaly, fever, anemia, elevated LDH
+Missing symptoms: No thrombocytopenia or leukocytosis reported
+
++2. Infectious Mononucleosis:
+Common symptoms: Splenomegaly, fever
+Missing symptoms: EBV negative, no lymphadenopathy, no pharyngitis
+
++3. Neuroblastoma:
+Common symptoms: Abdominal mass, elevated LDH, fever
+Missing symptoms: No weight loss reported, normal blood pressure
+
++4. Hemolytic Anemia:
+Common symptoms: Splenomegaly, anemia, elevated LDH
+Missing symptoms: No jaundice reported, no reticulocytosis mentioned
+
++5. Malaria:
+Common symptoms: Splenomegaly, fever, anemia
+Missing symptoms: No typical fever pattern, no travel history mentioned
+
++6. Juvenile Myelomonocytic Leukemia (JMML):
+Common symptoms: Splenomegaly, fever, mild anemia
+Missing symptoms: No monocytosis reported, no skin lesions
+
++7. Lymphoma:
+Common symptoms: Splenomegaly, fever, elevated LDH
+Missing symptoms: No lymphadenopathy, no night sweats reported
+
++8. Storage Disease (e.g., Gaucher):
+Common symptoms: Splenomegaly
+Missing symptoms: No developmental delay, no bone involvement
+
+Given the age, presentation, and laboratory findings, the most concerning diagnoses would be leukemia, neuroblastoma, or lymphoma, requiring immediate further investigation with imaging studies and bone marrow evaluation."
+Acute lymphoblastic leukemia - ORPHA: 513,"I'll analyze this case as a doctor and provide potential diagnoses:
+
++1. Acute Lymphoblastic Leukemia (ALL):
+Common symptoms present:
+- Back pain
+- Fever
+- Pancytopenia (low platelets, leukopenia)
+- Elevated LDH
+- Bone pain
+Missing typical symptoms:
+- No hepatosplenomegaly mentioned
+- No lymphadenopathy reported
+
++2. Osteomyelitis:
+Common symptoms present:
+- Localized bone pain
+- Fever
+- Elevated inflammatory markers
+- Pain worsening over time
+Missing typical symptoms:
+- No local inflammatory signs
+- No significant elevation of PCT
+
++3. Septic Arthritis:
+Common symptoms present:
+- Fever
+- Joint pain
+- Limited mobility
+Missing typical symptoms:
+- No joint swelling
+- No marked inflammatory signs
+- Low PCT for bacterial infection
+
++4. Juvenile Idiopathic Arthritis:
+Common symptoms present:
+- Joint pain
+- Limited mobility
+Missing typical symptoms:
+- Pattern doesn't fit typical presentation
+- Laboratory findings suggest different pathology
+
++5. Bone Marrow Infiltrative Disease:
+Common symptoms present:
+- Bone pain
+- Pancytopenia
+- Elevated LDH
+- Constitutional symptoms
+Missing typical symptoms:
+- No other organ involvement reported
+
+Given the laboratory findings (pancytopenia, elevated LDH) and clinical presentation, Acute Lymphoblastic Leukemia appears to be the most likely diagnosis."
+Posterior urethral valves - ORPHA: 93110,"I'll analyze this case and provide potential diagnoses based on the symptoms presented:
+
++1. Acute Pyelonephritis:
+Common symptoms present: Fever, irritability, elevated inflammatory markers (CRP, leukocytosis), pyuria (>100 leukocytes/field), hydronephrosis
+Missing symptoms: Vomiting (typically present in pyelonephritis)
+
++2. Urinary Tract Obstruction:
+Common symptoms present: Bilateral hydronephrosis, urinary retention, paraumbilical swelling
+Missing symptoms: Usually presents with more severe symptoms of urinary retention
+
++3. Posterior Urethral Valves:
+Common symptoms present: Bilateral hydronephrosis, history of prenatal hydronephrosis, urinary retention
+Missing symptoms: Usually detected earlier in life, more severe symptoms
+
++4. Acute Gastroenteritis:
+Common symptoms present: Diarrhea, fever
+Missing symptoms: Typical gastroenteritis would not explain the urinary findings and hydronephrosis
+
++5. Urosepsis:
+Common symptoms present: High fever, elevated inflammatory markers, urinary infection markers, irritability
+Missing symptoms: Patient not showing severe systemic compromise typical of sepsis
+
++6. Congenital Ureteropelvic Junction Obstruction:
+Common symptoms present: Prenatal hydronephrosis, current hydronephrosis, urinary infection
+Missing symptoms: Usually unilateral rather than bilateral"
+Juvenile dermatomyositis - ORPHA: 93672,"Based on the symptoms provided, I'll analyze potential diagnoses:
+
++1. Juvenile Dermatomyositis (JDM):
+Common symptoms present:
+- Proximal muscle weakness (difficulty climbing stairs, sitting up)
+- Characteristic skin rash (Gottron's papules on joints)
+- Facial edema
+- Malar erythema
+- Elevated muscle enzymes (CPK, AST, ALT, LDH)
+- Age appropriate (typically occurs in children)
+- Periungual changes
+Missing symptoms: None significant
+
++2. Systemic Lupus Erythematosus (SLE):
+Common symptoms present:
+- Malar rash
+- Muscle weakness
+- Skin manifestations
+Missing symptoms:
+- No joint arthritis
+- No renal involvement
+- No hematological abnormalities
+
++3. Mixed Connective Tissue Disease:
+Common symptoms present:
+- Muscle weakness
+- Skin changes
+- Elevated muscle enzymes
+Missing symptoms:
+- No Raynaud's phenomenon reported
+- No arthritis
+- Usually affects older children/adults
+
++4. Polymyositis:
+Common symptoms present:
+- Proximal muscle weakness
+- Elevated muscle enzymes
+Missing symptoms:
+- Typically lacks characteristic skin manifestations
+- Usually affects adults more than children
+
+The most likely diagnosis is Juvenile Dermatomyositis, as it perfectly matches the clinical presentation, including both the characteristic muscle and skin manifestations, along with the elevated muscle enzymes."
+Methylmalonic acidemia,"Based on the symptoms and test results, here are the potential diagnoses:
+
++1. Methylmalonic Acidemia (MMA):
+Common symptoms present: Poor feeding, lethargy, hypotonia, respiratory distress, dehydration, hyperammonemia, metabolic acidosis, elevated lactate
+Common symptoms absent: Vomiting (not mentioned)
+Laboratory findings match: Increased plasma propionylcarnitine, increased urinary methylmalonic acid, hyperammonemia
+
++2. Neonatal Sepsis:
+Common symptoms present: Respiratory distress, poor general condition, lethargy, temperature instability
+Common symptoms absent: Fever, significant leukocytosis
+Laboratory findings match: Low platelet count, neutropenia
+
++3. Urea Cycle Disorder:
+Common symptoms present: Lethargy, poor feeding, hyperammonemia, respiratory distress
+Common symptoms absent: Vomiting, seizures
+Laboratory findings don't fully match: Doesn't explain methylmalonic aciduria
+
++4. Propionic Acidemia:
+Common symptoms present: Poor feeding, lethargy, hypotonia, metabolic acidosis
+Common symptoms absent: Vomiting
+Laboratory findings partially match: Elevated propionylcarnitine, but primary marker would be different
+
++5. Neonatal Encephalopathy:
+Common symptoms present: Poor feeding, altered consciousness, respiratory distress, hypotonia
+Common symptoms absent: Birth asphyxia (Apgar scores were good)
+Laboratory findings don't match: Doesn't explain metabolic findings
+
+Based on the clinical presentation and especially the laboratory findings (elevated methylmalonic acid and propionylcarnitine), Methylmalonic Acidemia is the most likely diagnosis."
+Hodgkin's lymphoma,"As a doctor, analyzing these symptoms, here are the potential diagnoses:
+
++1. Hodgkin's Lymphoma:
+Common symptoms present: Painless lymphadenopathy, mediastinal widening, fatigue, weight loss, supraclavicular nodes
+Missing symptoms: B symptoms (fever, night sweats)
+
++2. Acute Lymphoblastic Leukemia (ALL):
+Common symptoms present: Anemia, elevated WBC count, fatigue, lymphadenopathy
+Missing symptoms: Bone pain, frequent infections, bruising
+
++3. Chronic Myeloid Leukemia (CML):
+Common symptoms present: High WBC count, fatigue, lymphadenopathy, elevated platelets
+Missing symptoms: Night sweats, bone pain, splenomegaly
+
++4. Non-Hodgkin's Lymphoma:
+Common symptoms present: Lymphadenopathy, fatigue, mediastinal mass, elevated LDH
+Missing symptoms: Fever, night sweats, weight loss more pronounced
+
++5. Tuberculosis Lymphadenitis:
+Common symptoms present: Lymphadenopathy, fatigue
+Missing symptoms: Fever, night sweats, cough, weight loss more pronounced
+
+Given the age of the patient, location of lymphadenopathy, mediastinal widening, and laboratory findings (particularly the elevated LDH), Hodgkin's Lymphoma would be the most likely diagnosis, requiring immediate biopsy confirmation."
+Hemolytic anemia,"I'll analyze this case and provide potential diagnoses:
+
++1. Acute Hemolytic Anemia:
+Common symptoms present: Pallor, jaundice, low hemoglobin, high reticulocytes, elevated LDH, low haptoglobin
+Missing symptoms: No evidence of blood group incompatibility (Coombs negative)
+
++2. Infectious Mononucleosis:
+Common symptoms present: Fever, lymphocytosis, mild respiratory symptoms
+Missing symptoms: No significant lymphadenopathy, no typical pharyngitis
+
++3. Acute Leukemia:
+Common symptoms present: Severe anemia, leukocytosis, pallor
+Missing symptoms: No petechiae, platelets are elevated instead of decreased
+
++4. G6PD Deficiency:
+Common symptoms present: Acute hemolysis, pallor, jaundice, low hemoglobin
+Missing symptoms: No clear trigger identified, no history of previous episodes
+
++5. Hereditary Spherocytosis:
+Common symptoms present: Anemia, jaundice, elevated reticulocytes, negative Coombs
+Missing symptoms: No family history mentioned, no splenomegaly noted
+
++6. Transient Erythroblastopenia of Childhood:
+Common symptoms present: Severe anemia, pallor
+Missing symptoms: Reticulocytes are high (not low as expected in TEC)
+
+Most likely diagnosis appears to be acute hemolytic anemia, given the laboratory findings showing hemolysis markers (low haptoglobin, high LDH, high reticulocytes) with negative Coombs test."
+Juvenile idiopathic arthritis (JIA) polyarticular rheumatoid factor positiu,"Based on the symptoms and clinical findings, here are the potential diagnoses:
+
++1. Juvenile Idiopathic Arthritis (JIA):
+Common symptoms present: Morning stiffness, symmetric joint swelling, synovitis in multiple joints
+Missing symptoms: Fever, rash (which can be present in some JIA subtypes)
+
++2. Rheumatoid Arthritis (Juvenile onset):
+Common symptoms present: Bilateral joint involvement, morning stiffness, synovitis
+Missing symptoms: Rheumatoid nodules, systemic symptoms
+
++3. Mixed Connective Tissue Disease:
+Common symptoms present: Joint swelling, numbness
+Missing symptoms: Raynaud's phenomenon, muscle weakness, rash
+
++4. Lyme Disease:
+Common symptoms present: Joint swelling, arthritis
+Missing symptoms: History of tick bite, erythema migrans, fever
+
++5. Post-Streptococcal Reactive Arthritis:
+Common symptoms present: Joint pain and swelling
+Missing symptoms: Recent strep infection, fever, cardiac involvement
+
++6. Celiac Disease-associated Arthritis:
+Common symptoms present: Joint pain, known celiac disease
+Missing symptoms: Gastrointestinal symptoms, malabsorption signs
+
++7. Reactive Arthritis:
+Common symptoms present: Joint swelling, asymmetric arthritis
+Missing symptoms: Recent infection, eye symptoms, urogenital symptoms"
+Bartonel-losi sistèmica,"I'll analyze this case as a doctor and provide potential diagnoses:
+
++1. Cat Scratch Disease (Bartonella henselae infection):
+Common symptoms: Lymphadenopathy, fever, contact with pets, presence of a scratch/lesion
+Missing symptoms: Usually more acute onset of lymphadenopathy
+
++2. Lymphoma (Hodgkin's or Non-Hodgkin's):
+Common symptoms: Lymphadenopathy, fever, elevated LDH, splenic lesions
+Missing symptoms: Usually more generalized lymphadenopathy, weight loss, night sweats
+
++3. Tularemia:
+Common symptoms: Fever, lymphadenopathy, possible animal contact
+Missing symptoms: Usually more severe systemic symptoms, ulceroglandular form more common
+
++4. Toxoplasmosis:
+Common symptoms: Lymphadenopathy, fever, contact with pets, splenic involvement
+Missing symptoms: Usually more generalized lymphadenopathy
+
++5. Infectious Mononucleosis:
+Common symptoms: Fever, lymphadenopathy, elevated LDH
+Missing symptoms: Pharyngitis, more generalized lymphadenopathy, typical age is adolescence
+
++6. Mycobacterial Infection (atypical):
+Common symptoms: Lymphadenopathy, fever, elevated inflammatory markers
+Missing symptoms: Usually more chronic course, multiple node involvement
+
++7. Kikuchi Disease:
+Common symptoms: Fever, lymphadenopathy, elevated inflammatory markers
+Missing symptoms: More common in young females, usually cervical lymphadenopathy
+
+Based on the clinical presentation, laboratory findings, and epidemiological context, Cat Scratch Disease appears to be the most likely diagnosis, especially given the presence of pets, the linear lesion, and the characteristic lymphadenopathy."
+"Plateletopenia (a few days later, O-3002-immune thrombocytopenic purpura (pti, immune thrombocytopenia))","Based on the symptoms and clinical findings, here are the potential diagnoses:
+
++1. Immune Thrombocytopenic Purpura (ITP):
+Common symptoms present: Sudden onset of petechiae, bruising, very low platelet count (3,000/mmcc), normal coagulation studies, good general condition
+Symptoms not present: No fever or other systemic symptoms, which is consistent with ITP
+
++2. Acute Leukemia:
+Common symptoms present: Low platelets, hepatomegaly, elevated LDH
+Symptoms not present: No anemia, no significant bone pain, normal neutrophil count, preserved general condition
+
++3. Evans Syndrome:
+Common symptoms present: Low platelets, bruising
+Symptoms not present: No hemolytic anemia, normal hemoglobin
+
++4. Aplastic Anemia:
+Common symptoms present: Low platelets, bruising
+Symptoms not present: Normal hemoglobin, normal white blood cell count, normal neutrophils
+
++5. Bernard-Soulier Syndrome:
+Common symptoms present: Easy bruising, low platelets
+Symptoms not present: This is a congenital condition and would have shown symptoms earlier, family history would likely be positive
+
+Given the acute presentation, age of the patient, laboratory findings (isolated severe thrombocytopenia with normal coagulation), and good general condition, Immune Thrombocytopenic Purpura (ITP) is the most likely diagnosis."
+Congenital adrenal hyperplasia (END),"Let me analyze the symptoms and provide potential diagnoses:
+
++1. Congenital Adrenal Hyperplasia (CAH):
+Common symptoms: vomiting, hypoactivity, electrolyte abnormalities (high K, low Na)
+Missing symptoms: ambiguous genitalia, dehydration signs
+
++2. Pyloric Stenosis:
+Common symptoms: progressive vomiting, decreased intake, age group (typically 2-6 weeks)
+Missing symptoms: projectile vomiting, visible peristaltic waves, palpable olive-shaped mass
+
++3. Metabolic Crisis (Organic Acidemia):
+Common symptoms: poor feeding, lethargy, vomiting, hypoglycemia
+Missing symptoms: severe acidosis, ketosis
+
++4. Sepsis:
+Common symptoms: poor feeding, hypoactivity, elevated white blood count
+Missing symptoms: fever, significant CRP elevation, hemodynamic instability
+
++5. Acute Liver Failure:
+Common symptoms: jaundice, vomiting, hypoactivity
+Missing symptoms: significantly elevated liver enzymes, coagulopathy
+
+Based on the laboratory findings (particularly the severe hyperkalemia, hyponatremia, and hypoglycemia) and clinical presentation, Congenital Adrenal Hyperplasia appears to be the most likely diagnosis requiring immediate attention and treatment."
+Acute infectious myocarditis (CARDIO),"I'll analyze this case as a doctor and provide potential diagnoses:
+
++1. Viral Myocarditis:
+Common symptoms: Fever, tachycardia, hepatomegaly, elevated cardiac enzymes, wide QRS, decreased ventricular function, positive viral test
+Missing symptoms: No chest pain reported (though patient is young)
+
++2. Septic Shock:
+Common symptoms: Fever, tachycardia, hypotension, cold extremities, elevated lactate, prolonged capillary refill
+Missing symptoms: PCT is only mildly elevated, no clear source of bacterial infection
+
++3. Acute Gastroenteritis with Dehydration:
+Common symptoms: Vomiting, diarrhea, fever, positive for viruses
+Missing symptoms: Cardiac involvement wouldn't be typical
+
++4. Rhabdomyolysis:
+Common symptoms: Elevated CPK, altered liver enzymes
+Missing symptoms: No muscle pain reported, no dark urine
+
++5. Cardiogenic Shock:
+Common symptoms: Hypotension, tachycardia, hepatomegaly, decreased ventricular function, elevated lactate
+Missing symptoms: No history of cardiac disease
+
++6. Viral Syndrome with Cardiac Complications:
+Common symptoms: Positive viral test, fever, GI symptoms, cardiac involvement
+Missing symptoms: None significant
+
+Based on the presentation, the most likely diagnosis appears to be Viral Myocarditis with associated cardiogenic shock, triggered by the identified viruses (Rhinoenterovirus and adenovirus)."

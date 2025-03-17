@@ -1,0 +1,430 @@
+GT,Diagnosis 1
+Enfermedad de Hirschsprung - ORPHA: 388,"Based on the provided symptoms and examination findings, here is a list of potential diseases for the neonate:
+
++1. Hirschsprung's Disease:
+   - Common symptoms: Abdominal distension, no stools in the first hours of life, irritability to abdominal palpation, weight stagnation.
+   - Not common symptoms: Decreased intake since 12 hours (though could be secondary to abdominal issues).
+
++2. Intestinal Obstruction (e.g., Meconium Ileus):
+   - Common symptoms: Abdominal distension, no stools in the first hours of life, irritability to abdominal palpation.
+   - Not common symptoms: Decreased intake since 12 hours (though could be secondary to obstruction), afebrile.
+
++3. Necrotizing Enterocolitis (NEC):
+   - Common symptoms: Abdominal distension, irritability to abdominal palpation, decreased intake.
+   - Not common symptoms: Afebrile, weight stagnation since birth (NEC often presents with systemic signs and more acute onset).
+
++4. Congenital Hypothyroidism:
+   - Common symptoms: Weight stagnation since birth, decreased intake.
+   - Not common symptoms: Abdominal distension, afebrile, irritability to abdominal palpation.
+
++5. Milk Protein Allergy or Intolerance:
+   - Common symptoms: Abdominal distension, irritability to abdominal palpation, decreased intake.
+   - Not common symptoms: Afebrile, weight stagnation since birth (allergy usually presents with more systemic symptoms).
+
+"
+Hepatitis autoimmune type 1 - ORPHA: 563576,"Based on the provided symptoms and test results, here is a list of potential diseases:
+
++1. Acute Hepatitis A:  
+   - Common symptoms: Yellowish skin discoloration (jaundice), concentrated urine, abdominal distension, hepatomegaly, elevated AST and ALT levels, elevated bilirubin levels.  
+   - Symptoms not in common: Typically, acute hepatitis A would present with IgM positive serology, but in this case, IgM is negative.
+
++2. Autoimmune Hepatitis:  
+   - Common symptoms: Jaundice, hepatomegaly, elevated liver enzymes (AST, ALT), elevated bilirubin levels, itching (pruritus).  
+   - Symptoms not in common: Autoimmune hepatitis often presents with positive autoantibodies, which are not mentioned here.
+
++3. Biliary Atresia:  
+   - Common symptoms: Jaundice, pale stools, hepatomegaly, elevated bilirubin levels, itching.  
+   - Symptoms not in common: Typically presents in newborns or very young infants, and the ultrasound might show structural changes in the biliary tree, which are not present here.
+
++4. Drug-Induced Liver Injury:  
+   - Common symptoms: Jaundice, elevated liver enzymes (AST, ALT), hepatomegaly, itching.  
+   - Symptoms not in common: No history of drug intake or exposure is mentioned.
+
++5. Wilson's Disease:  
+   - Common symptoms: Hepatomegaly, elevated liver enzymes, jaundice.  
+   - Symptoms not in common: Typically presents with neurological symptoms and Kayser-Fleischer rings, which are not mentioned here. Also, copper studies would be needed for confirmation.
+
+"
+Congenital diaphragmatic hernia - ORPHA: 2140,"Based on the provided symptoms and examination findings, here is a list of potential diseases:
+
++1. **Congenital Diaphragmatic Hernia (CDH):**  
+   - **Common Symptoms:** Presence of intestinal loops in the left hemithorax, collapsed ipsilateral lung, respiratory symptoms (cough, nasal mucus), and recurrent wheezing.  
+   - **Uncommon Symptoms:** Fever and intermittent vomiting are not typical for CDH but could be secondary to complications.
+
++2. **Pneumonia:**  
+   - **Common Symptoms:** Fever, cough, nasal mucus, and faint infiltrates in the right lung.  
+   - **Uncommon Symptoms:** Intermittent vomiting and the presence of intestinal loops in the left hemithorax are not typical for pneumonia.
+
++3. **Gastroesophageal Reflux Disease (GERD):**  
+   - **Common Symptoms:** Intermittent vomiting and cough.  
+   - **Uncommon Symptoms:** Fever and the presence of intestinal loops in the left hemithorax are not typical for GERD.
+
++4. **Foreign Body Aspiration:**  
+   - **Common Symptoms:** Cough, recurrent wheezing, and respiratory symptoms.  
+   - **Uncommon Symptoms:** Fever and the presence of intestinal loops in the left hemithorax are not typical for foreign body aspiration.
+
++5. **Bronchitis:**  
+   - **Common Symptoms:** Cough, nasal mucus, and recurrent wheezing.  
+   - **Uncommon Symptoms:** Fever lasting one month and the presence of intestinal loops in the left hemithorax are not typical for bronchitis.
+
+"
+Cystic fibrosis - ORPHA: 586,"+1. Vitamin B12 Deficiency Anemia:  
+- Common Symptoms: Macrocytic anemia, pallor, vomiting, weight stagnation, and malnourishment.  
+- Uncommon Symptoms: The infant is afebrile, which is not typical for vitamin B12 deficiency, but not exclusive.
+
++2. Folate Deficiency Anemia:  
+- Common Symptoms: Macrocytic anemia, pallor, vomiting, weight stagnation, and malnourishment.  
+- Uncommon Symptoms: The infant is afebrile, which is not typical for folate deficiency, but not exclusive.
+
++3. Congenital Hypothyroidism:  
+- Common Symptoms: Pallor, weight stagnation, malnourishment, and increased skin folds.  
+- Uncommon Symptoms: Macrocytic anemia is not a typical feature, and the infant is afebrile.
+
++4. Iron Deficiency Anemia:  
+- Common Symptoms: Pallor, weight stagnation, and malnourishment.  
+- Uncommon Symptoms: Macrocytic anemia is not typical for iron deficiency, which usually presents as microcytic anemia.
+
++5. Congenital Heart Disease:  
+- Common Symptoms: Pallor, weight stagnation, malnourishment, and presence of a systolic murmur.  
+- Uncommon Symptoms: Macrocytic anemia is not typical, and the infant is afebrile.
+
+"
+Aicardi-Goutières syndrome - ORPHA: 51 (Leucodistrofia),"Based on the provided symptoms and examination findings, here is a list of potential diseases:
+
++1. Aicardi-Goutières Syndrome:
+   - Common symptoms: Neurological regression, microcephaly, motor impairment, pleocytosis in cerebrospinal fluid, calcifications in the brain.
+   - Uncommon symptoms: No abnormal movements, no family history of interest.
+
++2. Leigh Syndrome:
+   - Common symptoms: Neurological regression, hypotonia, hypertonia, motor impairment, developmental milestone loss, brain MRI abnormalities.
+   - Uncommon symptoms: No abnormal movements, no family history of interest.
+
++3. Rett Syndrome:
+   - Common symptoms: Neurological regression, hypotonia, loss of developmental milestones, preference for one hand.
+   - Uncommon symptoms: No abnormal movements, no family history of interest, pleocytosis in cerebrospinal fluid.
+
++4. Mitochondrial Encephalomyopathy:
+   - Common symptoms: Neurological regression, hypotonia, hypertonia, motor impairment, brain MRI abnormalities.
+   - Uncommon symptoms: No abnormal movements, no family history of interest, pleocytosis in cerebrospinal fluid.
+
++5. Neurodegeneration with Brain Iron Accumulation (NBIA):
+   - Common symptoms: Neurological regression, hypotonia, hypertonia, motor impairment, brain MRI abnormalities.
+   - Uncommon symptoms: No abnormal movements, no family history of interest, pleocytosis in cerebrospinal fluid.
+
+"
+Sanfilippo Syndrome Type A - ORPHA: 79269 (Mucopolysaccharidosis type III - ORPHA: 581),"Based on the provided symptoms and additional information, here is a list of potential diseases:
+
++1. Mucopolysaccharidosis (MPS):  
+   - Common symptoms: Regression in language, worsening of contact with the environment, gait alteration, drooling, hepatomegaly, hyperexaltation of reflexes, altered excretion of oligosaccharides, elevated glycosaminoglycans (GAG) in urine.
+   - Uncommon symptoms: Left forearm atrophy, coarse facial features.
+
++2. GM1 Gangliosidosis:  
+   - Common symptoms: Regression in neurodevelopment, language regression, gait alteration, drooling, hepatomegaly, hyperexaltation of reflexes, coarse facial features.
+   - Uncommon symptoms: Left forearm atrophy, altered excretion of oligosaccharides.
+
++3. Niemann-Pick Disease Type C:  
+   - Common symptoms: Neurodevelopmental regression, gait alteration, hepatomegaly, drooling, dysphagia.
+   - Uncommon symptoms: Elevated glycosaminoglycans (GAG) in urine, altered excretion of oligosaccharides.
+
++4. Tay-Sachs Disease:  
+   - Common symptoms: Neurodevelopmental regression, language regression, gait alteration, hyperexaltation of reflexes.
+   - Uncommon symptoms: Hepatomegaly, altered excretion of oligosaccharides, elevated glycosaminoglycans (GAG) in urine.
+
++5. Krabbe Disease:  
+   - Common symptoms: Neurodevelopmental regression, language regression, gait alteration, hyperexaltation of reflexes.
+   - Uncommon symptoms: Hepatomegaly, altered excretion of oligosaccharides, elevated glycosaminoglycans (GAG) in urine.
+
+These potential diagnoses should be further evaluated with specific genetic and biochemical tests to confirm the exact condition."
+Sarcoma of bland parts - ORPHA: 3394,"Based on the provided symptoms and examination findings, here is a list of potential diseases that could be considered for this patient:
+
++1. Spinal Muscular Atrophy (SMA):
+   - Common symptoms: Motor delay, hypotonia in lower limbs, absent osteotendinous reflexes in lower extremities, difficulty standing.
+   - Not common symptoms: Repeated urinary tract infections are not typically associated with SMA.
+
++2. Congenital Myopathy:
+   - Common symptoms: Hypotonia, motor delay, difficulty with standing, altered sensory and motor neurography in lower extremities.
+   - Not common symptoms: Repeated urinary tract infections are not typically associated with congenital myopathies.
+
++3. Charcot-Marie-Tooth Disease (CMT):
+   - Common symptoms: Hypotonia in lower limbs, altered sensory and motor neurography, absent reflexes in lower extremities.
+   - Not common symptoms: Motor delay and repeated urinary tract infections are not typical for CMT.
+
++4. Cerebral Palsy (Hypotonic Type):
+   - Common symptoms: Motor delay, hypotonia, difficulty with standing.
+   - Not common symptoms: Repeated urinary tract infections and altered neurography are not typical for cerebral palsy.
+
++5. Muscular Dystrophy:
+   - Common symptoms: Hypotonia, motor delay, difficulty with standing.
+   - Not common symptoms: Repeated urinary tract infections and altered neurography are not typical for muscular dystrophy.
+
+"
+Nephroblastoma - ORPHA: 654,"Based on the provided information, here is a list of potential diseases that could be considered for the 9-month-old infant, along with a comparison of symptoms:
+
++1. Hemolytic Anemia:
+   - Common symptoms: Splenomegaly, mild normocytic anemia, elevated LDH.
+   - Not common symptoms: Fever is not typically a primary symptom.
+
++2. Infectious Mononucleosis:
+   - Common symptoms: Splenomegaly, fever.
+   - Not common symptoms: Negative EBV serology, no lymphocytosis.
+
++3. Urinary Tract Infection (UTI):
+   - Common symptoms: Fever, presence of red blood cells in urinalysis.
+   - Not common symptoms: Splenomegaly is not typical, low leukocytes in urinalysis.
+
++4. Leukemia:
+   - Common symptoms: Splenomegaly, anemia, fever.
+   - Not common symptoms: Normal white blood cell count, no blasts in blood analysis.
+
++5. Lymphoproliferative Disorder:
+   - Common symptoms: Splenomegaly, fever, anemia.
+   - Not common symptoms: Normal white blood cell count, no lymphadenopathy noted.
+
+"
+Acute lymphoblastic leukemia - ORPHA: 513,"Based on the provided symptoms and examination findings, here is a list of potential diseases that could be considered for this patient:
+
++1. Osteomyelitis:
+   - Common symptoms: Worsening low back pain, fever, pain on palpation in the iliac crest, inability to ambulate, elevated CRP.
+   - Uncommon symptoms: Normal X-ray findings, low ESR.
+
++2. Leukemia:
+   - Common symptoms: Low back pain, fever, anemia (low Hb), thrombocytopenia (low platelets), leukopenia (low leukocytes), elevated liver enzymes (ALT/AST), elevated LDH.
+   - Uncommon symptoms: Normal ESR, specific bone pain location.
+
++3. Discitis:
+   - Common symptoms: Severe back pain, fever, inability to ambulate, elevated CRP.
+   - Uncommon symptoms: Normal X-ray findings, low ESR, specific pain location in the iliac crest rather than the spine.
+
++4. Juvenile Idiopathic Arthritis (Systemic Onset):
+   - Common symptoms: Fever, joint pain, elevated CRP.
+   - Uncommon symptoms: Normal X-ray findings, low ESR, specific pain location, blood count abnormalities.
+
++5. Viral Infection with Myositis:
+   - Common symptoms: Fever, muscle pain, elevated liver enzymes (ALT/AST), elevated LDH.
+   - Uncommon symptoms: Specific location of pain, blood count abnormalities.
+
+"
+Posterior urethral valves - ORPHA: 93110,"Based on the provided symptoms and additional information, here is a list of potential diseases:
+
++1. Urinary Tract Infection (UTI):  
+   - Common symptoms: Fever, irritability, leukocytosis with neutrophilia, high CRP, and presence of leukocytes and Gram-positive germs in urinary sediment.  
+   - Uncommon symptoms: Greenish and pasty diarrheal stools, right paraumbilical swelling.
+
++2. Pyelonephritis:  
+   - Common symptoms: Fever, irritability, leukocytosis with neutrophilia, high CRP, and presence of leukocytes and Gram-positive germs in urinary sediment. Bilateral hydronephrosis and signs of acute urinary retention suggest kidney involvement.  
+   - Uncommon symptoms: Greenish and pasty diarrheal stools, right paraumbilical swelling.
+
++3. Intussusception:  
+   - Common symptoms: Right paraumbilical swelling, irritability.  
+   - Uncommon symptoms: Fever, greenish and pasty diarrheal stools without mucus or blood, absence of vomiting.
+
++4. Viral Gastroenteritis:  
+   - Common symptoms: Diarrheal stools, fever, irritability.  
+   - Uncommon symptoms: Right paraumbilical swelling, presence of leukocytes and Gram-positive germs in urinary sediment, bilateral hydronephrosis.
+
++5. Appendicitis:  
+   - Common symptoms: Right paraumbilical swelling, fever, irritability.  
+   - Uncommon symptoms: Greenish and pasty diarrheal stools without mucus or blood, absence of vomiting, presence of leukocytes and Gram-positive germs in urinary sediment.
+
+Each of these potential diagnoses would require further investigation and clinical correlation to confirm."
+Juvenile dermatomyositis - ORPHA: 93672,"Based on the symptoms and examination findings provided, here is a list of potential diseases:
+
++1. Juvenile Dermatomyositis:
+   - Common symptoms: Muscle pain and weakness, skin lesions (malar erythema, papular lesions on joints), periungual erythema, elevated CPK, AST, ALT, and LDH levels.
+   - Not common symptoms: No specific symptoms not aligning with this condition.
+
++2. Systemic Lupus Erythematosus (SLE):
+   - Common symptoms: Malar erythema, skin lesions, facial edema, muscle pain.
+   - Not common symptoms: Lack of arthritis, specific muscle enzyme elevation (CPK), and the specific pattern of skin lesions.
+
++3. Polymyositis:
+   - Common symptoms: Muscle pain and weakness, elevated muscle enzymes (CPK, AST, ALT, LDH).
+   - Not common symptoms: Specific skin lesions (malar erythema, papular lesions), periungual erythema.
+
++4. Mixed Connective Tissue Disease:
+   - Common symptoms: Muscle pain, skin changes, elevated muscle enzymes.
+   - Not common symptoms: Specific pattern of skin lesions and lack of arthritis.
+
++5. Viral Myositis:
+   - Common symptoms: Muscle pain and weakness, elevated muscle enzymes.
+   - Not common symptoms: Specific skin lesions and chronicity of symptoms.
+
+The symptoms and laboratory findings most closely align with Juvenile Dermatomyositis, given the combination of muscle weakness, specific skin manifestations, and elevated muscle enzymes."
+Methylmalonic acidemia,"Based on the provided symptoms, history, and test results, here is a list of potential diseases:
+
++1. Propionic Acidemia:
+   - Common symptoms: Respiratory distress, hypotonia, poor general condition, dehydration, metabolic acidosis (low pH, low bicarbonate), elevated ammonia, increased plasma propionylcarnitine.
+   - Not common symptoms: Hypertonia of the extremities, high-pitched cry.
+
++2. Methylmalonic Acidemia:
+   - Common symptoms: Respiratory distress, hypotonia, poor general condition, dehydration, metabolic acidosis, elevated ammonia, increased urinary excretion of methylmalonic acid.
+   - Not common symptoms: Hypertonia of the extremities, high-pitched cry.
+
++3. Urea Cycle Disorder:
+   - Common symptoms: Respiratory distress, hypotonia, poor general condition, dehydration, elevated ammonia.
+   - Not common symptoms: Increased plasma propionylcarnitine, increased urinary excretion of methylmalonic acid.
+
++4. Neonatal Sepsis:
+   - Common symptoms: Respiratory distress, poor general condition, hypotonia, dehydration, pallor, metabolic acidosis.
+   - Not common symptoms: Increased plasma propionylcarnitine, increased urinary excretion of methylmalonic acid, elevated ammonia.
+
++5. Organic Acidemia (general):
+   - Common symptoms: Respiratory distress, hypotonia, poor general condition, dehydration, metabolic acidosis, elevated ammonia.
+   - Not common symptoms: Specific markers like increased plasma propionylcarnitine and methylmalonic acid excretion.
+
+These potential diagnoses should be further evaluated with additional tests and clinical correlation to confirm the exact condition."
+Hodgkin's lymphoma,"Based on the provided symptoms and examination findings, here is a list of potential diseases with a brief description and an analysis of common and uncommon symptoms:
+
++1. Lymphoma:
+   - Common symptoms: Progressive asthenia, weight loss sensation, supraclavicular adenopathy, mediastinal widening, multiple hard and non-painful lymphadenopathies, elevated LDH.
+   - Uncommon symptoms: Afebrile state, no quantified weight loss.
+
++2. Leukemia:
+   - Common symptoms: Progressive asthenia, weight loss sensation, elevated leukocytes, anemia (low Hb and hematocrit), thrombocytosis (high platelets), elevated LDH.
+   - Uncommon symptoms: Afebrile state, no quantified weight loss, specific lymphadenopathy characteristics.
+
++3. Infectious Mononucleosis:
+   - Common symptoms: Lymphadenopathy, elevated leukocytes, elevated CRP.
+   - Uncommon symptoms: Afebrile state, mediastinal widening, anemia, thrombocytosis, elevated LDH, absence of typical symptoms like sore throat or fever.
+
++4. Tuberculosis (extrapulmonary):
+   - Common symptoms: Lymphadenopathy, weight loss sensation, elevated CRP.
+   - Uncommon symptoms: Afebrile state, mediastinal widening, anemia, thrombocytosis, elevated LDH, absence of respiratory symptoms.
+
++5. Sarcoidosis:
+   - Common symptoms: Mediastinal widening, lymphadenopathy.
+   - Uncommon symptoms: Afebrile state, anemia, thrombocytosis, elevated leukocytes, elevated LDH, absence of respiratory symptoms.
+
+"
+Hemolytic anemia,"Based on the provided symptoms and examination results, here is a list of potential diseases or conditions that could be considered for this 6-month-old infant:
+
++1. Hemolytic Anemia:
+   - Common Symptoms: Fever, pale skin, icterus (jaundice), elevated LDH, low haptoglobin, high reticulocyte count.
+   - Not Common Symptoms: High platelet count, high leukocyte count.
+
++2. Neonatal Hyperbilirubinemia:
+   - Common Symptoms: Yellowish skin coloration (jaundice), elevated bilirubin levels.
+   - Not Common Symptoms: Fever, high leukocyte count, anemia.
+
++3. Infection (e.g., Viral or Bacterial):
+   - Common Symptoms: Fever, mild catarrhal symptoms, high leukocyte count.
+   - Not Common Symptoms: Icterus, anemia, high platelet count.
+
++4. Leukemoid Reaction:
+   - Common Symptoms: High leukocyte count, high platelet count.
+   - Not Common Symptoms: Fever, icterus, anemia.
+
++5. G6PD Deficiency:
+   - Common Symptoms: Anemia, jaundice, elevated reticulocyte count, low haptoglobin.
+   - Not Common Symptoms: High leukocyte count, high platelet count, fever.
+
+"
+Juvenile idiopathic arthritis (JIA) polyarticular rheumatoid factor positiu,"Certainly, based on the symptoms and examination findings provided, here is a list of potential diseases:
+
++1. Juvenile Idiopathic Arthritis (JIA):  
+   - Common symptoms: Swelling in the fingers and toes, morning stiffness that improves during the day, synovitis, and tenosynovitis.  
+   - Uncommon symptoms: Absence of fever and other systemic symptoms.
+
++2. Psoriatic Arthritis:  
+   - Common symptoms: Swelling in fingers and toes, morning stiffness, synovitis, and tenosynovitis.  
+   - Uncommon symptoms: No skin changes or psoriasis noted, absence of dactylitis (sausage digits).
+
++3. Reactive Arthritis:  
+   - Common symptoms: Swelling in fingers and toes, synovitis.  
+   - Uncommon symptoms: Absence of preceding infection, fever, or other systemic symptoms.
+
++4. Systemic Lupus Erythematosus (SLE):  
+   - Common symptoms: Joint swelling and pain, synovitis.  
+   - Uncommon symptoms: Absence of systemic symptoms like rash, fever, or organ involvement.
+
++5. Rheumatic Fever:  
+   - Common symptoms: Joint swelling and pain.  
+   - Uncommon symptoms: Absence of fever, heart involvement, or recent streptococcal infection.
+
+"
+Bartonel-losi sistèmica,"+1. Cat Scratch Disease:  
+- Common Symptoms: The patient has a painful lump in the right groin, which could be an enlarged lymph node, and a history of living with pets, which is consistent with cat scratch disease. The fever and elevated CRP levels also align with this diagnosis.  
+- Uncommon Symptoms: The patient does not have a history of a cat scratch or bite, which is often associated with this disease.
+
++2. Inguinal Lymphadenitis:  
+- Common Symptoms: The presence of a painful, enlarged lymph node in the groin area and fever are consistent with lymphadenitis. The elevated leukocyte count and CRP levels support an inflammatory process.  
+- Uncommon Symptoms: There are no other signs of infection or systemic symptoms typically associated with lymphadenitis.
+
++3. Reactive Lymphadenopathy:  
+- Common Symptoms: The enlarged, painful lymph node and fever could be a reaction to a systemic infection or inflammation. The elevated CRP and leukocyte count support this.  
+- Uncommon Symptoms: There is no clear source of infection or systemic illness identified in the examination or history.
+
++4. Viral Infection with Lymphadenopathy:  
+- Common Symptoms: Fever and lymphadenopathy can occur with viral infections. The elevated CRP and leukocyte count could indicate a viral process.  
+- Uncommon Symptoms: The lack of other systemic symptoms or respiratory symptoms is atypical for many viral infections.
+
++5. Lymphoma:  
+- Common Symptoms: The presence of a large, painless lymph node and systemic symptoms like fever could suggest lymphoma. The hyperechogenic images in the spleen might indicate splenic involvement.  
+- Uncommon Symptoms: The lymph node is painful, which is less common in lymphoma, and the acute presentation with fever is not typical.
+
+"
+"Plateletopenia (a few days later, O-3002-immune thrombocytopenic purpura (pti, immune thrombocytopenia))","Based on the provided symptoms and examination findings, here is a list of potential diseases with their descriptions:
+
++1. Immune Thrombocytopenic Purpura (ITP):  
+   - Common symptoms: The patient presents with petechiae and multiple hematomas, which are consistent with ITP. The extremely low platelet count (3,000/mm³) supports this diagnosis.
+   - Uncommon symptoms: The patient maintains a good general condition and is afebrile, which is typical for ITP.
+
++2. Acute Leukemia:  
+   - Common symptoms: The presence of petechiae, hematomas, and an elevated white blood cell count (19,900/mm³) with lymphocytosis could suggest leukemia.
+   - Uncommon symptoms: The patient does not have anemia or significant hepatosplenomegaly, which are often seen in leukemia.
+
++3. Hemophilia:  
+   - Common symptoms: The presence of large hematomas could be indicative of a bleeding disorder like hemophilia.
+   - Uncommon symptoms: Normal coagulation tests and the absence of a family history of bleeding disorders make hemophilia less likely.
+
++4. Henoch-Schönlein Purpura (HSP):  
+   - Common symptoms: The presence of petechiae and hematomas could be seen in HSP.
+   - Uncommon symptoms: The patient does not have abdominal pain, joint pain, or renal involvement, which are typical for HSP.
+
++5. Viral Infection with Thrombocytopenia:  
+   - Common symptoms: Viral infections can cause thrombocytopenia and petechiae.
+   - Uncommon symptoms: The patient is afebrile and in good general condition, which is less common for a significant viral infection.
+
+"
+Congenital adrenal hyperplasia (END),"+1. Hyponatremia:  
+- Common symptoms: Decreased intake, hypoactivity, vomiting, refusal of food intake, low sodium level (Na 118 mmol/L).  
+- Uncommon symptoms: Jaundice, marmorata complexion.
+
++2. Hyperkalemia:  
+- Common symptoms: Decreased intake, hypoactivity, vomiting, refusal of food intake, high potassium level (K 9.1 mmol/L).  
+- Uncommon symptoms: Jaundice, marmorata complexion.
+
++3. Neonatal Jaundice:  
+- Common symptoms: Jaundice, decreased intake, hypoactivity.  
+- Uncommon symptoms: Vomiting, refusal of food intake, electrolyte imbalances.
+
++4. Congenital Adrenal Hyperplasia:  
+- Common symptoms: Decreased intake, hypoactivity, vomiting, refusal of food intake, electrolyte imbalances (hyponatremia, hyperkalemia).  
+- Uncommon symptoms: Jaundice, marmorata complexion.
+
++5. Sepsis:  
+- Common symptoms: Decreased intake, hypoactivity, vomiting, refusal of food intake, elevated heart rate (166 lpm), elevated respiratory rate (36 rpm).  
+- Uncommon symptoms: Jaundice, marmorata complexion, normal CRP (1.5 mg/L).
+
+"
+Acute infectious myocarditis (CARDIO),"+1. Viral Myocarditis:  
+- Common Symptoms: Tachycardia, hypotension, decreased ventricular function, elevated liver enzymes (AST, ALT), elevated CPK, and presence of viral infection (Rhinoenterovirus and adenovirus).  
+- Uncommon Symptoms: The patient does not exhibit respiratory distress or significant respiratory symptoms, which can sometimes accompany myocarditis.
+
++2. Dehydration with Electrolyte Imbalance:  
+- Common Symptoms: Vomiting, diarrhea, hypotension, tachycardia, skin pallor, prolonged capillary refill time, and elevated lactate levels.  
+- Uncommon Symptoms: The patient has preserved diuresis, which is less common in severe dehydration.
+
++3. Acute Gastroenteritis:  
+- Common Symptoms: Vomiting, diarrhea, fever, mild catarrhal symptoms, and elevated CRP.  
+- Uncommon Symptoms: The presence of significant cardiac symptoms such as decreased ventricular function and wide QRS on ECG is not typical for simple gastroenteritis.
+
++4. Sepsis:  
+- Common Symptoms: Fever, tachycardia, hypotension, elevated CRP, and elevated lactate levels.  
+- Uncommon Symptoms: The absence of a clear source of infection and the normal hemogram make sepsis less likely.
+
++5. Rhabdomyolysis:  
+- Common Symptoms: Elevated CPK levels, elevated liver enzymes, and metabolic acidosis.  
+- Uncommon Symptoms: The patient does not have muscle pain or weakness, which are common in rhabdomyolysis.
+
+"

@@ -1,0 +1,753 @@
+GT,Diagnosis 1
+Enfermedad de Hirschsprung - ORPHA: 388,"+1. Enfermedad de Hirschsprung:
+Síntomas en común: Distensión abdominal, ausencia de deposiciones en las primeras horas de vida, estancamiento ponderal desde el nacimiento, irritabilidad a la palpación abdominal, dilatación de asas en radiografía.
+Síntomas no presentes: No se observa enterocolitis asociada, no hay antecedentes familiares conocidos.
+
++2. Íleo meconial:
+Síntomas en común: Distensión abdominal, ausencia de deposiciones tempranas, mala tolerancia enteral, dilatación de asas en radiografía.
+Síntomas no presentes: No se reporta meconio espeso o adherente, ausencia de signos de fibrosis quística.
+
++3. Atresia intestinal:
+Síntomas en común: Distensión abdominal marcada, falta de deposiciones, irritabilidad, mala tolerancia enteral.
+Síntomas no presentes: No hay evidencia de niveles hidroaéreos en radiografía, ausencia de vómitos biliosos.
+
++4. Hipotiroidismo congénito:
+Síntomas en común: Estancamiento ponderal, disminución de la ingesta, letargia posible.
+Síntomas no presentes: No se mencionan rasgos faciales típicos, hipotermia, ictericia prolongada.
+
++5. Intolerancia a la proteína de la leche de vaca:
+Síntomas en común: Mala tolerancia enteral, irritabilidad, posible distensión abdominal.
+Síntomas no presentes: No hay diarrea con sangre o moco, ausencia de antecedentes alérgicos."
+Hepatitis autoinmune tipo 1 - ORPHA: 563576,"+1. **Wilson's Disease**:
+- **Symptoms in common**: Elevated liver enzymes (AST and ALT), hepatomegaly, jaundice (yellowish skin coloration), pruritus (the patient scratches a lot), abdominal distension, elevated ammonia levels, occurs in young children.
+- **Symptoms not in common**: No data on copper metabolism (ceruloplasmin levels or 24-hour urinary copper excretion), no mention of Kayser-Fleischer rings on eye examination.
+
++2. **Autoimmune Hepatitis**:
+- **Symptoms in common**: Elevated liver enzymes, hepatomegaly, jaundice, pruritus, occurs in young patients.
+- **Symptoms not in common**: Lack of autoimmune markers (ANA, SMA, LKM1 antibodies), no history of other autoimmune conditions.
+
++3. **Alpha-1 Antitrypsin Deficiency**:
+- **Symptoms in common**: Liver dysfunction in a child, elevated liver enzymes, hepatomegaly, jaundice.
+- **Symptoms not in common**: No mention of alpha-1 antitrypsin levels, absence of respiratory symptoms.
+
++4. **Viral Hepatitis**:
+- **Symptoms in common**: Elevated liver enzymes, hepatomegaly, jaundice, pruritus.
+- **Symptoms not in common**: Negative serologies for common viruses (HAV, HBV, HCV, CMV, EBV), afebrile, no evidence of acute viral infection.
+
++5. **Biliary Atresia**:
+- **Symptoms in common**: Pale (tan-colored) stools, jaundice with direct hyperbilirubinemia, hepatomegaly, pruritus.
+- **Symptoms not in common**: Typically presents in neonates, not at 2 years old; ultrasound shows no structural biliary abnormalities.
+
+"
+Hernia diafragmática congénita - ORPHA: 2140,"+1. **Congenital Diaphragmatic Hernia (CDH)**:
+Symptoms in common: Presence of intestinal loops in the left hemithorax on chest X-ray, collapsed left lung, diminished breath sounds (hypophonesis) on the left side, respiratory symptoms like cough, and gastrointestinal symptoms such as intermittent vomiting.
+Symptoms not in common: CDH is typically diagnosed in neonates or infants; presentation at 3 years old is less common.
+
++2. **Acquired Diaphragmatic Hernia**:
+Symptoms in common: Similar radiographic findings with intestinal loops in the thoracic cavity, respiratory distress signs, vomiting, and diminished breath sounds on the affected side.
+Symptoms not in common: Usually associated with a history of trauma or surgery, which is not noted in this case.
+
++3. **Pulmonary Infection (Pneumonia)**:
+Symptoms in common: Fever, cough, elevated C-reactive protein (PCR 80.1 mg/L), and infiltrates in the right lung.
+Symptoms not in common: The presence of intestinal loops in the thorax and collapse of the left lung are not typical features of pneumonia.
+
++4. **Pulmonary Tuberculosis**:
+Symptoms in common: Prolonged fever, cough, weight loss (not specified but possible considering prolonged illness), and elevated inflammatory markers.
+Symptoms not in common: The chest X-ray findings of intestinal loops in the thorax are not characteristic of tuberculosis.
+
++5. **Foreign Body Aspiration**:
+Symptoms in common: Respiratory symptoms, such as cough and recurrent wheezing, possible unilateral lung findings.
+Symptoms not in common: Lack of sudden onset choking episode; radiographic findings do not typically show intestinal loops in the thorax.
+
+"
+Fibrosi quística - ORPHA: 586,"+1. **Congenital Hypothyroidism**:
+A condition where the thyroid gland does not produce enough thyroid hormones, leading to slowed growth and development.
+- **Symptoms in common**: Macrocytic anemia, vomiting after feedings, weight stagnation, generalized pallor, delayed meconium evacuation after 48 hours.
+- **Symptoms not in common**: No mention of hypotonia, enlarged tongue (macroglossia), umbilical hernia, or prolonged jaundice.
+
++2. **Vitamin B12 Deficiency**:
+A deficiency leading to impaired DNA synthesis and neurological issues due to inadequate vitamin B12.
+- **Symptoms in common**: Macrocytic anemia, vomiting, weight stagnation, pallor.
+- **Symptoms not in common**: No evidence of maternal B12 deficiency, no neurological symptoms reported.
+
++3. **Diamond-Blackfan Anemia**:
+A rare congenital disorder characterized by the failure of the bone marrow to produce red blood cells.
+- **Symptoms in common**: Macrocytic anemia presenting in early infancy, generalized pallor.
+- **Symptoms not in common**: No physical anomalies noted (such as craniofacial or limb abnormalities), anemia is not isolated to red cells only.
+
++4. **Pyloric Stenosis**:
+A condition where the passage from the stomach to the small intestine is narrowed, causing feeding difficulties.
+- **Symptoms in common**: Frequent vomiting after feedings, weight stagnation, maintained appetite.
+- **Symptoms not in common**: Vomiting is not projectile, no palpable olive-shaped mass in the abdomen.
+
++5. **Hirschsprung's Disease**:
+A disorder where nerve cells are missing in parts of the intestines, causing bowel obstruction.
+- **Symptoms in common**: Delayed passage of meconium (after 48 hours), vomiting, weight stagnation, daily dyspeptic stools.
+- **Symptoms not in common**: No abdominal distension reported, no severe constipation mentioned.
+
+"
+Síndrome de Aicardi-Goutières - ORPHA: 51 (Leucodistrofia),"+1. **Síndrome de Aicardi-Goutières**:
+  
+**Síntomas en común**:
+- Inicio temprano en la infancia.
+- Regresión neurológica.
+- Microcefalia.
+- Retraso psicomotor.
+- Hipotonía.
+- Calcificaciones en ganglios basales observadas en la RM cerebral.
+- Pleocitosis en líquido cefalorraquídeo con aumento de neopterinas y biopterinas.
+
+**Síntomas no en común**:
+- No se mencionan lesiones cutáneas como los sabañones.
+- Ausencia de hepatomegalia o esplenomegalia.
+
++2. **Deficiencia de Tetrahidrobiopterina (BH4)**:
+
+**Síntomas en común**:
+- Síntomas neurológicos en la primera infancia.
+- Hipotonía axial y hipertonía en extremidades inferiores.
+- Retraso psicomotor.
+- Aumento de biopterinas en líquido cefalorraquídeo.
+
+**Síntomas no en común**:
+- No se reporta hiperfenilalaninemia.
+- Ausencia de convulsiones y problemas del comportamiento.
+
++3. **Leucodistrofia (por ejemplo, Enfermedad de Krabbe)**:
+
+**Síntomas en común**:
+- Deterioro neurológico progresivo.
+- Hipotonía e hipertonía muscular.
+- Retraso en hitos del desarrollo.
+- Afectación de sustancia blanca en RM cerebral.
+
+**Síntomas no en común**:
+- No hay evidencia de neuropatía periférica.
+- Pleocitosis y alteraciones en neopterinas no son características.
+
++4. **Encefalopatía Mitocondrial**:
+
+**Síntomas en común**:
+- Regresión neurológica.
+- Alteraciones motoras con hipotonía e hipertonía.
+- Retraso psicomotor.
+- Afectación de ganglios basales en RM.
+
+**Síntomas no en común**:
+- No se menciona acidosis láctica.
+- Sin datos de afectación multisistémica (corazón, hígado).
+
++5. **Síndrome de Rett**:
+
+**Síntomas en común**:
+- Afecta principalmente a niñas.
+- Pérdida de habilidades adquiridas (regresión).
+- Hipotonía muscular.
+
+**Síntomas no en común**:
+- No se observan movimientos estereotipados de las manos.
+- Ausencia de convulsiones reportadas.
+- RM cerebral generalmente normal en etapas tempranas."
+Síndrome de Sanfilippo Tipo A - ORPHA: 79269 (Mucopolisacaridosis tipo III - ORPHA: 581),"+1. **Mucopolisacaridosis tipo III (Síndrome de Sanfilippo)**:
+
+**Síntomas en común:**
+
+- Regresión en el lenguaje después de los 2 años.
+- Empeoramiento del contacto con el medio.
+- Alteración de la marcha y pérdida de equilibrio.
+- Babeo constante.
+- Hepatomegalia leve.
+- Fascias tosca.
+- Excreción elevada de glucosaminoglicanos en orina.
+
+**Síntomas no en común:**
+
+- No siempre presentan disfagia a líquidos.
+- Puede haber mayor hiperactividad y trastornos del sueño más severos.
+
++2. **Alfa-manosidosis (Oligosacaridosis)**:
+
+**Síntomas en común:**
+
+- Retraso en el desarrollo y regresión en habilidades adquiridas.
+- Fascias tosca.
+- Hepatomegalia.
+- Babeo constante.
+- Disfagia.
+- Excreción alterada de oligosacáridos en orina.
+
+**Síntomas no en común:**
+
+- Infecciones recurrentes de las vías respiratorias.
+- Hipoacusia (pérdida de audición).
+- Deformidades esqueléticas más prominentes.
+
++3. **Gangliosidosis GM1**:
+
+**Síntomas en común:**
+
+- Retardo psicomotor y regresión en el desarrollo.
+- Fascias tosca.
+- Hepatomegalia.
+- Babeo.
+- Disfagia.
+- Excreción de oligosacáridos en orina.
+
+**Síntomas no en común:**
+
+- Manchas rojo cereza en la mácula (ojos).
+- Hipotonía muscular marcada.
+- Deterioro más rápido de las funciones motoras.
+
++4. **Mucolipidosis tipo II (Enfermedad de células I)**:
+
+**Síntomas en común:**
+
+- Retraso en el desarrollo desde edad temprana.
+- Fascias tosca.
+- Hepatomegalia.
+- Disfagia.
+- Excreción elevada de glucosaminoglicanos y oligosacáridos en orina.
+
+**Síntomas no en común:**
+
+- Anomalías esqueléticas graves.
+- Baja estatura significativa.
+- Inicio de síntomas antes de los 2 años.
+
++5. **Enfermedad de Niemann-Pick tipo C**:
+
+**Síntomas en común:**
+
+- Deterioro neurológico progresivo.
+- Alteraciones en la marcha y pérdida de equilibrio.
+- Disfagia.
+- Hepatomegalia.
+- Problemas en el sueño, como ronquidos.
+
+**Síntomas no en común:**
+
+- Movimientos oculares anormales (parálisis de la mirada vertical).
+- Esplenomegalia (agrandamiento del bazo).
+- No suele presentar excreción elevada de glucosaminoglicanos u oligosacáridos.
+
+"
+Sarcoma de partes blandas - ORPHA: 3394,"+1. **Spinal Cord Lesion (e.g., Tethered Cord Syndrome)**:
+
+A condition where the spinal cord is abnormally attached within the spine, causing stretching and neurological symptoms.
+
+**Symptoms in common:**
+- **Hypotonia in lower limbs:** The child exhibits decreased muscle tone in the legs.
+- **Absent deep tendon reflexes in lower limbs:** Reflexes are missing in the legs, indicating possible nerve involvement.
+- **Difficulty with standing:** The child cannot tolerate standing positions.
+- **Recurrent urinary tract infections:** Suggestive of neurogenic bladder due to spinal cord involvement.
+- **Altered sensory and motor nerve conduction studies in lower limbs:** Indicates nerve dysfunction in the legs.
+
+**Symptoms not in common:**
+- **No mentioned skin abnormalities or back issues:** Often, spinal lesions may present with skin markings or discomfort not noted here.
+
++2. **Spinal Muscular Atrophy (SMA)**:
+
+A genetic disorder characterized by the degeneration of motor neurons leading to muscle weakness.
+
+**Symptoms in common:**
+- **Motor delay and hypotonia:** The child has delayed motor milestones and decreased muscle tone.
+- **Absent reflexes in lower limbs:** Reflexes are diminished or absent due to motor neuron loss.
+- **Difficulty activating leg muscles:** Intermittent activation of psoas and quadriceps muscles.
+
+**Symptoms not in common:**
+- **Upper limb involvement:** SMA typically affects both upper and lower limbs, but the child's arms are normal.
+- **Progression pattern:** SMA often shows a more generalized and progressive weakness.
+
++3. **Hereditary Motor Sensory Neuropathy (Charcot-Marie-Tooth Disease)**:
+
+A group of genetic disorders affecting peripheral nerves, leading to muscle weakness and sensory loss.
+
+**Symptoms in common:**
+- **Hypotonia in lower limbs:** Weak muscle tone in the legs.
+- **Altered nerve conduction studies:** Abnormalities in nerve function in the lower extremities.
+- **Absent reflexes in lower limbs:** Due to peripheral nerve involvement.
+
+**Symptoms not in common:**
+- **Sensory symptoms:** Typically includes sensory loss, which isn't mentioned.
+- **Age of onset:** Usually presents later in childhood, not at one year of age.
+- **Upper limb involvement:** Often affects arms as the disease progresses.
+
++4. **Congenital Myopathy**:
+
+A group of muscle disorders present from birth, causing muscle weakness and hypotonia.
+
+**Symptoms in common:**
+- **Generalized hypotonia:** Though the child primarily has lower limb hypotonia, it aligns with muscle weakness.
+- **Motor development delay:** Slow achievement of motor milestones like standing.
+
+**Symptoms not in common:**
+- **Upper limb weakness:** Congenital myopathies typically affect all limbs equally.
+- **Facial and respiratory muscle involvement:** Not reported in this child.
+
++5. **Cerebral Palsy (Spastic Diplegia)**:
+
+A neurological disorder caused by brain injury affecting muscle coordination and body movement.
+
+**Symptoms in common:**
+- **Motor delay:** The child is behind in motor skill development.
+- **Lower limb involvement:** Greater impact on legs than arms.
+
+**Symptoms not in common:**
+- **Increased muscle tone (spasticity):** The child has hypotonia instead of spasticity.
+- **Normal reflexes in lower limbs:** Cerebral palsy usually presents with exaggerated reflexes, whereas they're absent here.
+
+"
+Nefroblastoma - ORPHA: 654,"+1. Infección bacteriana sistémica:
+Síntomas en común: Fiebre, esplenomegalia, anemia normocítica leve, PCR y PCT elevadas, LDH elevada.
+Síntomas que no presenta: No hay foco infeccioso evidente, leucocitos en rango normal.
+
++2. Leucemia aguda:
+Síntomas en común: Esplenomegalia, anemia, LDH elevada, posible fiebre.
+Síntomas que no presenta: Hemograma normal excepto por anemia, sin otras citopenias, ausencia de blastos en sangre periférica.
+
++3. Enfermedad de almacenamiento lisosomal (Enfermedad de Gaucher):
+Síntomas en común: Esplenomegalia de consistencia dura, anemia.
+Síntomas que no presenta: No se reportan afectación ósea, retraso del crecimiento o lesiones cutáneas características.
+
++4. Anemia hemolítica:
+Síntomas en común: Anemia normocítica, LDH elevada, esplenomegalia.
+Síntomas que no presenta: No se mencionan signos de hemólisis como ictericia, aumento de bilirrubina indirecta o reticulocitosis.
+
++5. Infección urinaria (Pielonefritis):
+Síntomas en común: Fiebre, presencia de hematíes en orina.
+Síntomas que no presenta: Leucocituria significativa, bacteriuria, síntomas urinarios como disuria o urgencia miccional.
+
+"
+Leucemia linfoblástica aguda - ORPHA: 513,"+1. Acute Lymphoblastic Leukemia (ALL):
+Symptoms in common: The patient presents with bone pain (intermittent lumbar pain worsening significantly in the last 24 hours), anemia (Hb 11.1 g/dL), thrombocytopenia (platelets 119,000/mm³), leukopenia with neutropenia (leukocytes 2100/mm³, neutrophils 600/mm³), elevated liver enzymes (ALT/AST 250/258 U/L), elevated LDH (813 U/L), and elevated inflammatory markers (CRP 29.6 mg/L, PCT 0.22 ng/mL). The inability to ambulate and low-grade fever are also consistent.
+Symptoms not in common: Absence of hepatosplenomegaly, lymphadenopathy, or other signs of organ infiltration. ESR is low (2 mm), whereas it is often elevated in ALL.
+
++2. Osteomyelitis:
+Symptoms in common: Significant bone pain localized to the left iliac crest, inability to ambulate, low-grade fever, and elevated inflammatory markers (CRP and PCT). The pain worsens at night and has an acute exacerbation.
+Symptoms not in common: Leukopenia and neutropenia are atypical (usually leukocytosis is present). ESR is normal (typically elevated in osteomyelitis). Lack of edema, erythema, or increased temperature over the affected area.
+
++3. Ewing Sarcoma:
+Symptoms in common: Bone pain that is severe and awakens the patient at night, elevated LDH levels, and elevated inflammatory markers. The age of the patient aligns with possible presentation.
+Symptoms not in common: No visible mass or swelling over the iliac crest. Blood counts show pancytopenia, which is not typical. Imaging (previous radiograph) showed no abnormalities, whereas Ewing sarcoma usually presents with radiographic changes.
+
++4. Discitis:
+Symptoms in common: Back pain in a young child, difficulty changing positions, inability to walk, elevated CRP levels.
+Symptoms not in common: Pain is localized to the iliac crest rather than the spine. No tenderness over spinous processes. Leukopenia is uncommon in discitis. ESR is normal, though it is often elevated in discitis.
+
++5. Septic Arthritis of the Sacroiliac Joint:
+Symptoms in common: Pain over the iliac area, inability to walk, low-grade fever, elevated CRP and PCT indicating inflammation.
+Symptoms not in common: Absence of joint swelling, redness, or increased warmth. Leukopenia and neutropenia instead of leukocytosis. Normal ESR, which is often elevated in septic arthritis.
+
+"
+Válvulas uretra posterior - ORPHA: 93110,"+1. **Urinary Tract Infection (UTI):**
+- **Symptoms in common:** Fever up to 38.5ºC, irritability, elevated leukocytes with neutrophilia (leukocytosis), high C-reactive protein (CRP 279 mg/L), pyuria (>100 leukocytes/field), presence of abundant Gram-positive bacteria in urine sediment, bilateral hydronephrosis, signs of acute urinary retention.
+- **Symptoms not in common:** No vomiting, diuresis is reported as conserved (though ultrasound shows retention), no specific mention of urinary symptoms like dysuria (which may be difficult to assess in infants).
+
++2. **Acute Pyelonephritis:**
+- **Symptoms in common:** High fever, irritability, elevated inflammatory markers (leukocytosis, neutrophilia, high CRP), positive urine findings (pyuria, bacteria), bilateral hydronephrosis indicating kidney involvement.
+- **Symptoms not in common:** Absence of flank pain (difficult to assess in infants), no vomiting.
+
++3. **Obstructive Uropathy (e.g., Posterior Urethral Valves):**
+- **Symptoms in common:** Bilateral hydronephrosis, signs of acute urinary retention, right paraumbilical swelling (possible distended bladder), prenatal findings of left renal pelvis dilation (7.9mm).
+- **Symptoms not in common:** Diuresis is noted as conserved, no history of urinary tract issues until now.
+
++4. **Paraumbilical Hernia with Incarceration:**
+- **Symptoms in common:** Right paraumbilical swelling measuring approximately 2x3 cm, irritability, possible abdominal discomfort.
+- **Symptoms not in common:** No signs of bowel obstruction (no vomiting, normal intake), swelling appeared recently, no mention of redness or tenderness over the swelling.
+
++5. **Gastroenteritis:**
+- **Symptoms in common:** Diarrhea for 4 days with greenish, pasty stools, fever, irritability.
+- **Symptoms not in common:** No vomiting, absence of mucus or blood in stools, good oral intake preserved, no dehydration signs.
+
+"
+Dermatomiositis juvenil - ORPHA: 93672,"+1. **Dermatomiositis Juvenil**:
+
+Descripción: Enfermedad inflamatoria autoinmune que afecta músculos y piel en niños, caracterizada por debilidad muscular proximal y erupciones cutáneas específicas.
+
+**Síntomas en común**:
+
+- **Debilidad muscular proximal**: Dolor y limitación en extremidades inferiores, dificultad para deambular, subir escaleras, elevar la cabeza, elevar brazos y sedestación dificultosa.
+- **Lesiones cutáneas características**: Eritema malar, lesiones papulares en articulaciones metacarpofalángicas e interfalángicas (pápulas de Gottron), eritema periungueal con dilataciones vasculares e hiperqueratosis, lesiones en codos, rodillas y muslos.
+- **Edema facial y de extremidades**: Presencia de edema en cara, brazos y piernas.
+- **Elevación de enzimas musculares**: CPK, AST, ALT y LDH significativamente elevados.
+
+**Síntomas no en común**:
+
+- No se mencionan calcinosis cutánea ni disfagia, que pueden estar presentes en algunos casos.
+
++2. **Lupus Eritematoso Sistémico (LES)**:
+
+Descripción: Enfermedad autoinmune sistémica que puede afectar múltiples órganos y sistemas, con manifestaciones cutáneas y articulares.
+
+**Síntomas en común**:
+
+- **Eritema malar**: Erupción en mejillas característica.
+- **Lesiones cutáneas**: Lesiones eritematosas en piel.
+- **Edema**: Presencia de edema facial y en extremidades.
+
+**Síntomas no en común**:
+
+- **Ausencia de afectación sistémica**: No hay datos de compromiso renal, hematológico o neurológico.
+- **Enzimas musculares**: Aunque puede haber miositis, la elevación marcada de CPK es menos común.
+- **Edad**: Menos frecuente en niños tan pequeños.
+
++3. **Miopatía Viral**:
+
+Descripción: Inflamación muscular secundaria a infecciones virales, que provoca dolor muscular y elevación de enzimas.
+
+**Síntomas en común**:
+
+- **Dolor muscular**: Dolor en extremidades con limitación funcional.
+- **Elevación de enzimas musculares**: Aumento de CPK, AST, ALT y LDH.
+
+**Síntomas no en común**:
+
+- **Lesiones cutáneas**: Las erupciones cutáneas características no son habituales.
+- **Duración**: Suelen ser cuadros de corta evolución.
+- **Ausencia de síntomas sistémicos virales**: No se mencionan fiebre ni síntomas respiratorios.
+
++4. **Polimiositis Juvenil**:
+
+Descripción: Enfermedad inflamatoria muscular que causa debilidad muscular proximal sin afectar la piel.
+
+**Síntomas en común**:
+
+- **Debilidad muscular proximal**: Limitación para mover codos, muñecas, caderas y rodillas.
+- **Elevación de enzimas musculares**: Altos niveles de CPK y otras enzimas.
+
+**Síntomas no en común**:
+
+- **Ausencia de manifestaciones cutáneas**: No presenta las lesiones en piel descritas.
+- **Edad**: Menos frecuente en niños pequeños.
+
++5. **Esclerodermia Sistémica Juvenil**:
+
+Descripción: Enfermedad autoinmune que causa fibrosis de piel y otros órganos.
+
+**Síntomas en común**:
+
+- **Lesiones cutáneas**: Cambios en la piel, como hiperqueratosis y posibles alteraciones vasculares periungueales.
+- **Rigidez articular**: Limitación en movilidad por afectación cutánea y fibrosis.
+
+**Síntomas no en común**:
+
+- **Ausencia de fibrosis cutánea generalizada**: No se describen esclerodermia ni esclerodactilia.
+- **Elevación de enzimas musculares**: Menos común en esclerodermia pura sin solapamiento."
+Acidemia metilmalónica,"+1. **Acidemia Metilmalónica (AMM):**
+
+*Síntomas en común:*
+- Acidosis metabólica (pH bajo, bicarbonato disminuido).
+- Aumento del ácido metilmalónico en orina.
+- Hiperamonemia (amonio elevado a 403 µmol/L).
+- Síntomas neurológicos como hipotonía, letargo, succión pobre y movimientos oculares anormales.
+- Elevación de enzimas hepáticas (ALT y AST elevadas).
+- Lactato elevado (6.2 mmol/L).
+- Mal estado general y deshidratación.
+- Trombocitopenia (plaquetas bajas).
+
+*Síntomas no presentes:*
+- No se especifican antecedentes familiares de enfermedades metabólicas.
+- Ausencia de hepatomegalia significativa.
+
++2. **Acidemia Propiónica:**
+
+*Síntomas en común:*
+- Aumento de propionilcarnitina en plasma.
+- Acidosis metabólica con exceso de base negativo y bicarbonato bajo.
+- Hiperamonemia.
+- Síntomas neurológicos similares: hipotonía, letargo, succión pobre.
+- Elevación de enzimas hepáticas.
+- Lactato elevado.
+- Trombocitopenia y leucopenia.
+
+*Síntomas no presentes:*
+- No hay menciones de vómitos recurrentes.
+- Ausencia de cardiomiopatía en la exploración actual.
+
++3. **Defectos del Ciclo de la Urea (ejemplo, Deficiencia de OTC):**
+
+*Síntomas en común:*
+- Hiperamonemia marcada.
+- Síntomas neurológicos: letargo, hipotonía, convulsiones potenciales.
+- Alimentación deficiente y succión pobre.
+- Respiración alterada (aunque suele presentarse hiperventilación).
+
+*Síntomas no presentes:*
+- Normalmente no hay acidosis metabólica; suele haber alcalosis respiratoria.
+- No se espera elevación de ácido metilmalónico o propionilcarnitina.
+- No se mencionan antecedentes familiares que pudieran sugerir herencia ligada al cromosoma X.
+
++4. **Sepsis Neonatal:**
+
+*Síntomas en común:*
+- Deterioro del estado general y signos de distrés respiratorio.
+- Hipotonía y letargo.
+- Alteraciones hematológicas como leucopenia y trombocitopenia.
+- Acidosis metabólica y lactato elevado.
+- Elevación de enzimas hepáticas.
+
+*Síntomas no presentes:*
+- Temperatura normal (sin fiebre).
+- Ausencia de datos de infección materna significativa durante el parto.
+- Cultivos y marcadores infecciosos no reportados.
+
++5. **Enfermedad de Orina con Olor a Jarabe de Arce (EOOJA):**
+
+*Síntomas en común:*
+- Alteraciones neurológicas: letargo, pobre succión, hipertonía.
+- Acidosis metabólica.
+- Alteraciones en el tono muscular y movimientos anormales.
+
+*Síntomas no presentes:*
+- No se describe olor característico a jarabe de arce en orina o cerumen.
+- No hay datos de niveles elevados de aminoácidos de cadena ramificada.
+- No se menciona historia familiar de la enfermedad."
+Linfoma de Hodgkin,"+1. Leucemia Mieloide Crónica (LMC):
+
+Síntomas en común:
+- Astenia progresiva.
+- Pérdida de peso no cuantificada.
+- Leucocitosis marcada con neutrofilia y basofilia.
+- Trombocitosis (plaquetas elevadas).
+- Anemia.
+- LDH elevada.
+
+Síntomas no presentes:
+- Esplenomegalia (no mencionada en la exploración).
+- Fatiga extrema o dolor óseo (no referidos).
+
++2. Linfoma de Hodgkin:
+
+Síntomas en común:
+- Adenopatías no dolorosas, duras y móviles en axilas y supraclaviculares.
+- Ensanchamiento mediastínico en radiografía de tórax.
+- Astenia.
+- Pérdida de peso.
+
+Síntomas no presentes:
+- Fiebre (el paciente está afebril).
+- Sudoración nocturna y prurito (no referidos).
+
++3. Linfoma No Hodgkin:
+
+Síntomas en común:
+- Adenopatías periféricas y mediastínicas.
+- Astenia y pérdida de peso.
+- Leucocitosis y LDH elevada.
+
+Síntomas no presentes:
+- Síntomas compresivos respiratorios o gastrointestinales (no mencionados).
+- Fiebre o sudoración nocturna.
+
++4. Leucemia Linfoblástica Aguda (LLA):
+
+Síntomas en común:
+- Astenia.
+- Anemia.
+- Adenopatías.
+- Leucocitosis.
+- LDH elevada.
+
+Síntomas no presentes:
+- Trombocitopenia (en lugar de esto, el paciente presenta trombocitosis).
+- Dolor óseo o articular (no referido).
+- Fiebre (paciente afebril).
+
++5. Infecciones crónicas (como tuberculosis ganglionar):
+
+Síntomas en común:
+- Adenopatías no dolorosas.
+- Astenia.
+- Pérdida de peso.
+
+Síntomas no presentes:
+- Fiebre o sudores nocturnos.
+- Signos pulmonares en radiografía (parénquima pulmonar sin alteraciones).
+- Síntomas respiratorios como tos (no referidos)."
+Anemia hemolítica,"+1. **Anemia hemolítica no autoinmune**:
+- **Síntomas en común**:
+  - Anemia severa (Hb 4.6 g/dl).
+  - Ictericia (coloración amarillenta de la piel).
+  - Reticulocitosis elevada (18%).
+  - LDH aumentada (1315 UI/L).
+  - Haptoglobina baja (<80 mg/L).
+  - Coombs directo e indirecto negativos.
+- **Síntomas no presentes**:
+  - No hay antecedentes de exposición a fármacos o tóxicos que provoquen hemólisis.
+  - Ausencia de esplenomegalia en la exploración física.
+
++2. **Esferocitosis hereditaria**:
+- **Síntomas en común**:
+  - Anemia hemolítica con reticulocitosis.
+  - Ictericia.
+  - Coombs negativo.
+  - Elevación de LDH.
+- **Síntomas no presentes**:
+  - No se menciona historia familiar de anemia.
+  - Ausencia de esplenomegalia detectada en la exploración.
+
++3. **Deficiencia de glucosa-6-fosfato deshidrogenasa (G6PD)**:
+- **Síntomas en común**:
+  - Anemia hemolítica.
+  - Ictericia.
+  - Reticulocitos elevados.
+- **Síntomas no presentes**:
+  - No se reporta exposición a desencadenantes como ciertos fármacos o habas.
+  - Generalmente más común en ciertas etnias (detalle no especificado).
+
++4. **Leucemia aguda infantil**:
+- **Síntomas en común**:
+  - Anemia severa.
+  - Leucocitosis significativa (39,800/mm³).
+  - Trombocitosis (927,000/mm³).
+  - Palidez cutánea y de mucosas.
+- **Síntomas no presentes**:
+  - No se observan manifestaciones como fiebre persistente, pérdida de peso, petequias o adenopatías.
+  - Exploración física sin hallazgos de organomegalias.
+
++5. **Infección viral (por ejemplo, citomegalovirus congénito)**:
+- **Síntomas en común**:
+  - Ictericia.
+  - Hepatomegalia y esplenomegalia pueden estar presentes (aunque no se detectaron).
+  - Alteraciones hematológicas (anemia, leucocitosis).
+- **Síntomas no presentes**:
+  - No se mencionan otros signos típicos como microcefalia o calcificaciones intracraneales.
+  - Ausencia de síntomas severos en el estado general.
+
+"
+Artritis idiopàtica juvenil (AIJ) poliarticular factor reumatoide positiu,"+1. **Artritis Idiopática Juvenil (AIJ):**
+- **Síntomas en común:** Inflamación y dolor en articulaciones de manos y pies, rigidez matutina que mejora durante el día, limitación en la flexión de las muñecas y dedos. 
+- **Síntomas no presentes:** Fiebre, erupciones cutáneas, afectación de otros órganos.
+
++2. **Artritis Psoriásica Juvenil:**
+- **Síntomas en común:** Inflamación en las articulaciones pequeñas de manos y pies, dactilitis (dedos en salchicha), tenosinovitis.
+- **Síntomas no presentes:** Lesiones cutáneas típicas de psoriasis, antecedentes personales o familiares de psoriasis.
+
++3. **Lupus Eritematoso Sistémico Juvenil:**
+- **Síntomas en común:** Dolor e inflamación articular, posible afectación de múltiples articulaciones pequeñas.
+- **Síntomas no presentes:** Fiebre, erupción malar, fotosensibilidad, afectación renal o hematológica.
+
++4. **Esclerodermia Juvenil:**
+- **Síntomas en común:** Rigidez y limitación articular, afectación de manos.
+- **Síntomas no presentes:** Engrosamiento cutáneo, cambios en la pigmentación de la piel, fenómeno de Raynaud.
+
++5. **Enfermedad de Lyme (Borreliosis):**
+- **Síntomas en común:** Artritis en articulaciones, a veces con tenosinovitis.
+- **Síntomas no presentes:** Antecedente de picadura de garrapata, eritema migratorio, síntomas sistémicos como fiebre o malestar general.
+
+"
+Bartonel·losi sistèmica,"+1. **Enfermedad por arañazo de gato (Bartonella henselae):**
+
+**Síntomas en común:** Fiebre de hasta 39 °C de 4 días de evolución, adenopatía inguinal derecha dolorosa y aumentada de tamaño, lesión lineal incisa y eritematosa en la pierna izquierda (posible puerta de entrada), convivencia con animales domésticos.
+
+**Síntomas no presentes:** No se reportan síntomas como malestar general intenso, pérdida de peso o fatiga extrema.
+
+---
+
++2. **Linfadenitis bacteriana localizada:**
+
+**Síntomas en común:** Fiebre, adenopatía inguinal dolorosa, posible lesión cutánea en la pierna izquierda que podría actuar como puerta de entrada para bacterias.
+
+**Síntomas no presentes:** Ausencia de signos locales de infección en la lesión cutánea (calor, rubor, supuración).
+
+---
+
++3. **Tularemia (infección por Francisella tularensis):**
+
+**Síntomas en común:** Fiebre, adenopatía inguinal dolorosa, posible puerta de entrada cutánea, contacto con animales (aunque generalmente silvestres).
+
+**Síntomas no presentes:** No hay historial de exposición a animales silvestres, picaduras de insectos o contacto con animales de caza.
+
+---
+
++4. **Toxocariasis (larva migrans visceral):**
+
+**Síntomas en común:** Convivencia con animales domésticos, posible contacto con heces de perros o gatos, adenopatías.
+
+**Síntomas no presentes:** No se mencionan síntomas como tos, sibilancias, hepatoesplenomegalia o eosinofilia marcada en análisis sanguíneos.
+
+---
+
++5. **Mononucleosis infecciosa (virus de Epstein-Barr):**
+
+**Síntomas en común:** Fiebre, adenopatías.
+
+**Síntomas no presentes:** Ausencia de faringitis, fatigabilidad, esplenomegalia y adenopatías generalizadas, especialmente cervicales.
+
+---
+
+"
+"Plaquetopènia (uns dies més tard, O-3002-púrpura trombocitopènica immune (pti, trombocitopènia immune))","+1. **Púrpura Trombocitopénica Inmunitaria (PTI):**
+
+**Síntomas compartidos:** Presencia de petequias y hematomas generalizados en tronco, rostro, axilas y extremidades; trombocitopenia severa (plaquetas 3.000/mm³); buen estado general; ausencia de fiebre.
+
+**Síntomas no compartidos:** Leucocitosis (en PTI, el recuento de leucocitos suele ser normal); hepatomegalia leve (no es común en PTI).
+
++2. **Leucemia Linfoblástica Aguda (LLA):**
+
+**Síntomas compartidos:** Petequias y hematomas generalizados; hepatomegalia (1-2 traveses de dedo); trombocitopenia severa; leucocitosis con linfocitosis (leucocitos 19.900/mm³, linfocitos 10.100/mm³); presencia de linfocitos de aspecto estimulado; LDH elevada (727 UI/L).
+
+**Síntomas no compartidos:** Ausencia de fiebre o episodios febriles previos; buen estado general sin signos de fatiga o pérdida de peso; no se reporta anemia significativa.
+
++3. **Infección Viral (por ejemplo, Mononucleosis Infecciosa):**
+
+**Síntomas compartidos:** Hepatomegalia; leucocitosis con linfocitosis y presencia de linfocitos atípicos; posible aparición de petequias y hematomas en casos severos.
+
+**Síntomas no compartidos:** Generalmente asociado con fiebre y malestar general; no es común una trombocitopenia tan severa; suelen presentarse adenopatías y faringitis, ausentes en este caso.
+
++4. **Aplasia Medular:**
+
+**Síntomas compartidos:** Trombocitopenia severa; aparición de petequias y hematomas; posible pancitopenia.
+
+**Síntomas no compartidos:** En este caso, no hay anemia significativa (hemoglobina 11,8 g/dl) ni leucopenia (hay leucocitosis); buen estado general sin signos de fatiga o infecciones recurrentes.
+
++5. **Coagulopatía por Consumo (Coagulación Intravascular Diseminada):**
+
+**Síntomas compartidos:** Presencia de hematomas y petequias; trombocitopenia; posibles alteraciones en la coagulación.
+
+**Síntomas no compartidos:** Las pruebas de coagulación son normales; ausencia de un factor desencadenante como una sepsis o trauma mayor; no hay signos de hemólisis.
+
+"
+Hiperplasia suprarrenal congènita (END),"+1. Hiperplasia suprarrenal congénita:
+Síntomas en común: Vómitos persistentes, rechazo de la alimentación, hipoactividad, hiponatremia (Na 118 mmol/L), hiperkalemia (K 9.1 mmol/L), hipoglucemia (glucosa 42 mg/dl), deshidratación, ictericia.
+Síntomas no presentes: En varones, la genitalia externa suele ser normal, por lo que puede pasar desapercibida inicialmente.
+
++2. Sepsis neonatal:
+Síntomas en común: Hipoactividad, febrícula (37.5 ºC), taquicardia (166 lpm), leucocitosis (13,700/mm3 con neutrofilia), PCR ligeramente elevada (1.5 mg/L), hipoglucemia.
+Síntomas no presentes: No hay foco infeccioso evidente, saturación de oxígeno normal, presión arterial dentro de límites normales.
+
++3. Galactosemia clásica:
+Síntomas en común: Vómitos después de las tomas, rechazo de la alimentación, ictericia, hipoglucemia, alteraciones hepáticas (bilirrubina total 9.6 mg/dl), aumento de enzimas hepáticas (AST y ALT elevadas).
+Síntomas no presentes: No se mencionan cataratas, ni evidencia de infección por E. coli.
+
++4. Insuficiencia suprarrenal primaria (Enfermedad de Addison):
+Síntomas en común: Hiponatremia, hiperkalemia, hipoglucemia, hipoactividad, hipotensión.
+Síntomas no presentes: Enfermedad rara en lactantes, no hay antecedentes de hiperplasia suprarrenal o crisis previas.
+
++5. Hipotiroidismo congénito:
+Síntomas en común: Ictericia prolongada, hipoactividad, alimentación pobre, constipación (no mencionada pero común).
+Síntomas no presentes: No se observan macroglosia, hipotermia, ni fontanelas amplias.
+
+"
+Miocarditis aguda infecciosa (CARDIO),"+1. **Acute Viral Myocarditis:**
+Symptoms in common: Tachycardia (HR 218 bpm), hypotension (BP 70/55 mmHg), signs of heart failure (hepatomegaly, delayed capillary refill of 3-4 seconds, cold extremities), elevated cardiac enzymes (CK 2336 UI/L), elevated liver enzymes (AST 474 UI/L, ALT 73 UI/L), decreased ventricular function on echocardiogram, recent viral infection (positive for Rinoenterovirus and adenovirus), metabolic acidosis, elevated lactate levels.
+Symptoms not in common: Absence of chest pain, no prior known cardiac conditions.
+
++2. **Dilated Cardiomyopathy:**
+Symptoms in common: Signs of heart failure (hepatomegaly, tachycardia, hypotension), enlarged heart (cardiothoracic index 0.62 on chest X-ray), decreased ventricular function on echocardiogram.
+Symptoms not in common: Sudden onset of symptoms (dilated cardiomyopathy usually presents gradually), no family history of cardiomyopathy.
+
++3. **Septic Shock:**
+Symptoms in common: Fever (37.6ºC), hypotension, tachycardia, elevated inflammatory markers (PCR 17.11 mg/L, PCT 0.66 ng/ml), metabolic acidosis, elevated lactate levels, signs of organ dysfunction (hepatic involvement with elevated liver enzymes).
+Symptoms not in common: No identified source of bacterial infection, normal white blood cell count (hemograma normal), absence of overt signs of infection such as rash or focal infections.
+
++4. **Hypovolemic Shock due to Dehydration:**
+Symptoms in common: History of vomiting and diarrhea for 4 days, hypotension, tachycardia, delayed capillary refill, signs of poor perfusion (cold extremities), metabolic acidosis.
+Symptoms not in common: Maintained diuresis (diuresis conservada), absence of significant weight loss, presence of cardiac involvement (decreased ventricular function), elevated cardiac and liver enzymes not typical in simple dehydration.
+
++5. **Supraventricular Tachycardia (SVT):**
+Symptoms in common: Extremely high heart rate (218 bpm), hypotension, signs of decreased cardiac output (fatigue, pallor, delayed capillary refill).
+Symptoms not in common: ECG shows wide QRS complexes (SVT typically presents with narrow QRS complexes), presence of decreased ventricular function on echocardiogram suggests structural cardiac issues rather than a primary arrhythmia.
+
+"

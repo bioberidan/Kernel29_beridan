@@ -1,0 +1,127 @@
+GT,Diagnosis 1
+Acute infectious myocarditis (CARDIO),"+1. **Acute Viral Myocarditis**:
+
+*Symptoms in common:*
+- **Tachycardia (Heart rate: 218 bpm)**: Extremely elevated heart rate is characteristic of myocarditis due to inflammation of the heart muscle.
+- **Decreased ventricular function on echocardiogram**: Indicates impaired heart muscle function.
+- **Hepatomegaly**: Enlarged liver can result from congestive heart failure secondary to myocarditis.
+- **Skin pallor and prolonged capillary refill time (3-4 seconds)**: Signs of poor perfusion due to decreased cardiac output.
+- **Elevated AST and ALT levels**: Liver enzymes can rise due to congestion or injury.
+- **Elevated CPK levels (2336 UI/L)**: Indicates muscle damage, including cardiac muscle.
+- **ECG changes (sinus tachycardia with wide QRS)**: Arrhythmias are common in myocarditis.
+
+*Symptoms not in common:*
+- **Chest pain**: Often present in myocarditis but not reported here.
+- **Recent severe viral illness**: Mild catarrhal symptoms are present, but no severe viral illness reported.
+
++2. **Septic Shock**:
+
+*Symptoms in common:*
+- **Fever (37.6ºC)**: Low-grade fever may indicate infection.
+- **Hypotension (BP: 70/55 mmHg)**: Low blood pressure is a hallmark of septic shock.
+- **Tachycardia**: Compensation for hypotension.
+- **Elevated lactate levels (3.6-3.99 mmol/L)**: Suggests tissue hypoperfusion.
+- **Elevated CRP (17.11 mg/L) and PCT (0.66 ng/ml)**: Markers of inflammation and bacterial infection.
+- **Metabolic acidosis (pH 7.18-7.29, bicarbonate 12-14 mmol/L)**: Due to lactic acid accumulation.
+
+*Symptoms not in common:*
+- **Obvious source of infection**: No clear focus identified.
+- **Altered mental status**: Patient is conscious with a Glasgow Coma Scale of 15.
+- **Severe leukocytosis or leukopenia**: Hemogram is normal.
+
++3. **Hypovolemic Shock due to Dehydration**:
+
+*Symptoms in common:*
+- **Vomiting and diarrhea for 4 days**: Significant fluid loss leading to dehydration.
+- **Hypotension**: Resulting from decreased circulating volume.
+- **Tachycardia**: Compensatory mechanism for hypovolemia.
+- **Cold extremities and prolonged capillary refill**: Indicate poor peripheral perfusion.
+- **Metabolic acidosis**: Due to decreased perfusion and lactic acid buildup.
+- **Elevated lactate levels**: From hypoperfusion.
+
+*Symptoms not in common:*
+- **Decreased urine output**: Diuresis is preserved.
+- **Dry mucous membranes and sunken eyes**: Not reported.
+- **Weight loss**: No mention of recent weight change.
+
++4. **Dilated Cardiomyopathy**:
+
+*Symptoms in common:*
+- **Decreased ventricular function**: Core feature of cardiomyopathy.
+- **Cardiomegaly (Cardiothoracic index 0.62)**: Suggests an enlarged heart.
+- **Tachycardia and arrhythmias (wide QRS complexes)**: Common in advanced cardiomyopathy.
+- **Hepatomegaly**: Due to right-sided heart failure.
+- **Signs of heart failure**: Cold extremities, prolonged capillary refill, hypotension.
+
+*Symptoms not in common:*
+- **Family history of cardiomyopathy**: No family history reported.
+- **Chronic symptoms**: Presentation seems acute rather than chronic.
+
++5. **Arrhythmia (Supraventricular Tachycardia)**:
+
+*Symptoms in common:*
+- **Very high heart rate (218 bpm)**: Suggestive of SVT.
+- **ECG findings (wide QRS complexes)**: May occur in aberrant conduction.
+- **Pallor and poor perfusion signs**: Due to decreased cardiac output.
+
+*Symptoms not in common:*
+- **Palpitations**: Not reported.
+- **Sudden onset**: No information on the onset pattern.
+- **Response to vagal maneuvers**: Not attempted or reported.
+
++6. **Acute Hepatitis**:
+
+*Symptoms in common:*
+- **Elevated AST (474 UI/L) and ALT (73 UI/L)**: Indicates liver inflammation or injury.
+- **Hepatomegaly**: Enlarged liver palpable on examination.
+- **Gastrointestinal symptoms (vomiting, diarrhea)**: Common in hepatitis.
+
+*Symptoms not in common:*
+- **Jaundice**: Not observed.
+- **Dark urine and pale stools**: Not reported.
+- **Exposure history**: No mention of hepatotoxic drugs or infectious exposure.
+
++7. **Toxic Shock Syndrome**:
+
+*Symptoms in common:*
+- **Fever and hypotension**: Key features of TSS.
+- **Multi-organ involvement**: Elevated liver enzymes, renal function may be affected.
+- **Rash**: Often present but not reported here.
+
+*Symptoms not in common:*
+- **Skin rash and desquamation**: Not observed.
+- **Associated tampon use or surgical wounds**: No relevant history.
+
++8. **Adrenal Insufficiency (Addisonian Crisis)**:
+
+*Symptoms in common:*
+- **Hypotension and tachycardia**: Due to decreased cortisol levels.
+- **Gastrointestinal symptoms**: Vomiting and diarrhea.
+- **Electrolyte imbalances**: Hyperkalemia (K 5.4 mmol/L), hyponatremia (though Na is slightly elevated here).
+
+*Symptoms not in common:*
+- **Hyperpigmentation**: Not reported.
+- **History of adrenal disease**: No personal history.
+
++9. **Inborn Errors of Metabolism (e.g., Mitochondrial Disorders)**:
+
+*Symptoms in common:*
+- **Elevated lactate levels**: Due to defective oxidative phosphorylation.
+- **Muscle enzyme elevations (CPK)**: Indicates muscle involvement.
+- **Cardiac involvement**: Decreased ventricular function.
+
+*Symptoms not in common:*
+- **Developmental delays**: Not mentioned.
+- **Family history**: No relevant family history reported.
+- **Hypoglycemia**: Blood glucose is normal.
+
++10. **Kawasaki Disease**:
+
+*Symptoms in common:*
+- **Fever**: Present but only for 48 hours.
+- **Cardiovascular involvement**: Can lead to myocarditis and decreased ventricular function.
+
+*Symptoms not in common:*
+- **Duration of fever**: Typically lasts at least 5 days.
+- **Mucocutaneous signs**: Conjunctivitis, rash, strawberry tongue not reported.
+- **Lymphadenopathy**: Not observed."
