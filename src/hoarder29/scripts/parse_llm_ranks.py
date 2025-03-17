@@ -1,116 +1,84 @@
 import os
-import re
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy_models_working import Base, LlmDiagnosis, LlmDiagnosisRank, Models, Prompts
-from parsers import parse_diagnosis_text
+from db.utils.db_utils import get_session
+from db.bench29.bench29_models import LlmDifferentialDiagnosis, DifferentialDiagnosis2Rank
+from db.db_queries import get_diagnosis_ranks, add_diagnosis_rank
+from libs.libs import parse_diagnosis_text, filter_files
 
-def get_session():
-    DATABASE_URL = "postgresql://dummy_user:dummy_password_42@localhost/bench29"
-    engine = create_engine(DATABASE_URL)
-    Base.metadata.create_all(engine)
-    print("Tables created successfully!")
-    Session = sessionmaker(bind=engine)
-    session = Session()
-    return session
-
-def extract_model_prompt(dirname):
-    """Extract model and prompt from directory name."""
-    pattern = r"(.+)_diagnosis(?:_(.+))?"
-    match = re.match(pattern, dirname)
-    if match:
-        model_name = match.group(1)
-        prompt_name = match.group(2) if match.group(2) else "standard"
-        return model_name, prompt_name
-    return None, None
-
-def get_model_id(session, model_name):
-    """Get model ID from database."""
-    model = session.query(Models).filter(Models.alias == model_name).first()
-    if model:
-        return model.id
-    return None
-
-def get_prompt_id(session, prompt_name):
-    """Get prompt ID from database."""
-    prompt = session.query(Prompts).filter(Prompts.alias == prompt_name).first()
-    if prompt:
-        return prompt.id
-    return None
-
-def get_files(dirname):
-    print("listing directories")
-    dirs = [d for d in os.listdir(dirname) if os.path.isdir(os.path.join(dirname, d))]
-    
-    print(f"Found {len(dirs)} directories")
-    return dirs
-
-def process_diagnosis_into_ranks(session, verbose=False):
+def process_diagnosis_into_ranks(session, verbose=False, deep_verbose=False):
     """
-    Process all diagnosis strings in LlmDiagnosis table and parse each line
-    into a separate rank in the LlmDiagnosisRank table.
+    Process all diagnosis strings in LlmDifferentialDiagnosis table and parse each line
+    into a separate rank in the DifferentialDiagnosis2Rank table.
     
     Args:
         session: Database session
-        verbose: Whether to print detailed parsing information
+        verbose: Whether to print basic workflow information
+        deep_verbose: Whether to print detailed parsing information
     """
     # Get all LLM diagnoses
-    diagnoses = session.query(LlmDiagnosis).all()
-    print(f"Found {len(diagnoses)} diagnoses to process")
+    diagnoses = session.query(LlmDifferentialDiagnosis).all()
+    if verbose:
+        print(f"Found {len(diagnoses)} diagnoses to process")
     
     diagnoses_processed = 0
     ranks_added = 0
+    parse_failures = 0
     
     for diagnosis in diagnoses:
-        print(f"Processing diagnosis ID: {diagnosis.id}")
+        if verbose:
+            print(f"Processing diagnosis ID: {diagnosis.id}")
         
         # Check if diagnosis has text
         if not diagnosis.diagnosis:
-            print(f"  Diagnosis ID {diagnosis.id} has empty text, skipping")
+            if verbose:
+                print(f"  Diagnosis ID {diagnosis.id} has empty text, skipping")
             diagnoses_processed += 1
             continue
         
         # Check if any ranks already exist for this diagnosis
-        existing_ranks = session.query(LlmDiagnosisRank).filter(
-            LlmDiagnosisRank.llm_diagnosis_id == diagnosis.id
+        existing_ranks = session.query(DifferentialDiagnosis2Rank).filter(
+            DifferentialDiagnosis2Rank.differential_diagnosis_id == diagnosis.id
         ).count()
         
         if existing_ranks > 0:
-            print(f"  Diagnosis ID {diagnosis.id} already has {existing_ranks} ranks, skipping")
+            if verbose:
+                print(f"  Diagnosis ID {diagnosis.id} already has {existing_ranks} ranks, skipping")
             diagnoses_processed += 1
             continue
         
         # Parse the diagnosis text
-        parsed_diagnoses = parse_diagnosis_text(diagnosis.diagnosis, verbose=verbose)
+        rank_position, diagnosis_text, reasoning = parse_diagnosis_text(
+            diagnosis.diagnosis, 
+            verbose=deep_verbose, 
+            deep_verbose=deep_verbose
+        )
         
-        if not parsed_diagnoses:
-            print(f"  No valid diagnoses found in text for diagnosis ID {diagnosis.id}, skipping")
-            diagnoses_processed += 1
-            continue
-        
-        # Add each parsed diagnosis as a rank entry
-        for rank_position, diagnosis_text, reasoning in parsed_diagnoses:
-            diagnosis_text = diagnosis_text[:254]
-            rank_entry = LlmDiagnosisRank(
-                cases_bench_id=diagnosis.cases_bench_id,
-                llm_diagnosis_id=diagnosis.id,
-                rank_position=rank_position,
-                predicted_diagnosis=diagnosis_text,
-                reasoning=reasoning
-            )
+        # Add the diagnosis rank entry
+        add_diagnosis_rank(
+            session, 
+            diagnosis.cases_bench_id,
+            diagnosis.id,
+            rank_position,
+            diagnosis_text,
+            reasoning,
+            verbose=deep_verbose
+        )
+        ranks_added += 1
             
-            session.add(rank_entry)
-            ranks_added += 1
-        
-        # Commit after processing each diagnosis
-        session.commit()
-        print(f"  Added {len(parsed_diagnoses)} ranks for diagnosis ID {diagnosis.id}")
+        # Count parse failures
+        if rank_position is None or diagnosis_text is None:
+            parse_failures += 1
+            if verbose:
+                print(f"  Parsing failed for diagnosis ID {diagnosis.id}")
+        elif verbose:
+            print(f"  Added rank entry: rank={rank_position}, diagnosis='{diagnosis_text[:30]}...'")
         
         diagnoses_processed += 1
     
-    print(f"Processing completed. Processed {diagnoses_processed} diagnoses, added {ranks_added} ranks.")
+    if verbose:
+        print(f"Processing completed. Processed {diagnoses_processed} diagnoses, added {ranks_added} ranks.")
+        print(f"Total parse failures: {parse_failures}")
 
-def process_by_model_prompt(session, model_id=None, prompt_id=None, limit=None, verbose=False):
+def process_by_model_prompt(session, model_id=None, prompt_id=None, limit=None, verbose=False, deep_verbose=False):
     """
     Process diagnoses by specific model/prompt combinations.
     
@@ -119,16 +87,17 @@ def process_by_model_prompt(session, model_id=None, prompt_id=None, limit=None, 
         model_id: Optional model ID to filter by
         prompt_id: Optional prompt ID to filter by
         limit: Optional limit on number of diagnoses to process
-        verbose: Whether to print detailed parsing information
+        verbose: Whether to print basic workflow information
+        deep_verbose: Whether to print detailed parsing information
     """
     # Build query
-    query = session.query(LlmDiagnosis)
+    query = session.query(LlmDifferentialDiagnosis)
     
     # Apply filters if provided
     if model_id is not None:
-        query = query.filter(LlmDiagnosis.model_id == model_id)
+        query = query.filter(LlmDifferentialDiagnosis.model_id == model_id)
     if prompt_id is not None:
-        query = query.filter(LlmDiagnosis.prompt_id == prompt_id)
+        query = query.filter(LlmDifferentialDiagnosis.prompt_id == prompt_id)
     if limit is not None:
         query = query.limit(limit)
     
@@ -136,81 +105,89 @@ def process_by_model_prompt(session, model_id=None, prompt_id=None, limit=None, 
     diagnoses = query.all()
     
     # Print filter information
-    filter_info = []
-    if model_id is not None:
-        filter_info.append(f"model_id={model_id}")
-    if prompt_id is not None:
-        filter_info.append(f"prompt_id={prompt_id}")
-    if limit is not None:
-        filter_info.append(f"limit={limit}")
-    
-    filter_str = ", ".join(filter_info) if filter_info else "no filters"
-    print(f"Found {len(diagnoses)} diagnoses to process ({filter_str})")
+    if verbose:
+        filter_info = []
+        if model_id is not None:
+            filter_info.append(f"model_id={model_id}")
+        if prompt_id is not None:
+            filter_info.append(f"prompt_id={prompt_id}")
+        if limit is not None:
+            filter_info.append(f"limit={limit}")
+        
+        filter_str = ", ".join(filter_info) if filter_info else "no filters"
+        print(f"Found {len(diagnoses)} diagnoses to process ({filter_str})")
     
     # Process each diagnosis
     diagnoses_processed = 0
     ranks_added = 0
+    parse_failures = 0
     
     for diagnosis in diagnoses:
-        print(f"Processing diagnosis ID: {diagnosis.id}")
+        if verbose:
+            print(f"Processing diagnosis ID: {diagnosis.id}")
         
         # Check if diagnosis has text
         if not diagnosis.diagnosis:
-            print(f"  Diagnosis ID {diagnosis.id} has empty text, skipping")
+            if verbose:
+                print(f"  Diagnosis ID {diagnosis.id} has empty text, skipping")
             diagnoses_processed += 1
             continue
         
         # Check if any ranks already exist for this diagnosis
-        existing_ranks = session.query(LlmDiagnosisRank).filter(
-            LlmDiagnosisRank.llm_diagnosis_id == diagnosis.id
-        ).count()
+        existing_ranks = get_diagnosis_ranks(session, diagnosis.id)
         
-        if existing_ranks > 0:
-            print(f"  Diagnosis ID {diagnosis.id} already has {existing_ranks} ranks, skipping")
+        if existing_ranks:
+            if verbose:
+                print(f"  Diagnosis ID {diagnosis.id} already has {len(existing_ranks)} ranks, skipping")
             diagnoses_processed += 1
             continue
         
         # Parse the diagnosis text
-        parsed_diagnoses = parse_diagnosis_text(diagnosis.diagnosis, verbose=verbose)
+        rank_position, diagnosis_text, reasoning = parse_diagnosis_text(
+            diagnosis.diagnosis, 
+            verbose=deep_verbose, 
+            deep_verbose=deep_verbose
+        )
         
-        if not parsed_diagnoses:
-            print(f"  No valid diagnoses found in text for diagnosis ID {diagnosis.id}, skipping")
-            diagnoses_processed += 1
-            continue
-        
-        # Add each parsed diagnosis as a rank entry
-        for rank_position, diagnosis_text, reasoning in parsed_diagnoses:
-            rank_entry = LlmDiagnosisRank(
-                cases_bench_id=diagnosis.cases_bench_id,
-                llm_diagnosis_id=diagnosis.id,
-                rank_position=rank_position,
-                predicted_diagnosis=diagnosis_text,
-                reasoning=reasoning
-            )
+        # Add the diagnosis rank entry
+        add_diagnosis_rank(
+            session, 
+            diagnosis.cases_bench_id,
+            diagnosis.id,
+            rank_position,
+            diagnosis_text,
+            reasoning,
+            verbose=deep_verbose
+        )
+        ranks_added += 1
             
-            session.add(rank_entry)
-            ranks_added += 1
-        
-        # Commit after processing each diagnosis
-        session.commit()
-        print(f"  Added {len(parsed_diagnoses)} ranks for diagnosis ID {diagnosis.id}")
+        # Count parse failures
+        if rank_position is None or diagnosis_text is None:
+            parse_failures += 1
+            if verbose:
+                print(f"  Parsing failed for diagnosis ID {diagnosis.id}")
+        elif verbose:
+            print(f"  Added rank entry: rank={rank_position}, diagnosis='{diagnosis_text[:30]}...'")
         
         diagnoses_processed += 1
     
-    print(f"Processing completed. Processed {diagnoses_processed} diagnoses, added {ranks_added} ranks.")
+    if verbose:
+        print(f"Processing completed. Processed {diagnoses_processed} diagnoses, added {ranks_added} ranks.")
+        print(f"Total parse failures: {parse_failures}")
 
-def main(dirname=None, verbose=False):
+def main(dirname=None, verbose=False, deep_verbose=False):
     """
     Process all diagnoses into ranks.
     
     Args:
         dirname: Directory path (not used in this script but kept for consistency)
-        verbose: Whether to print detailed parsing information
+        verbose: Whether to print basic workflow information
+        deep_verbose: Whether to print detailed parsing information
     """
-    session = get_session()
+    session = get_session(schema="bench29")
     
     # Process all diagnoses
-    process_diagnosis_into_ranks(session, verbose=verbose)
+    process_diagnosis_into_ranks(session, verbose=verbose, deep_verbose=deep_verbose)
     
     # Alternatively, you could process by specific model/prompt:
     # model_name = "glm4"
@@ -218,10 +195,12 @@ def main(dirname=None, verbose=False):
     # model_id = get_model_id(session, model_name)
     # prompt_id = get_prompt_id(session, prompt_name)
     # if model_id and prompt_id:
-    #     process_by_model_prompt(session, model_id=model_id, prompt_id=prompt_id, verbose=verbose)
+    #     process_by_model_prompt(session, model_id=model_id, prompt_id=prompt_id, verbose=verbose, deep_verbose=deep_verbose)
+    
+    session.close()
 
 if __name__ == "__main__":
     dirname = "../../data/prompt_comparison_results/prompt_comparison_results"  # Not used but kept for consistency
-    verbose = True  # Set to True to see detailed parsing information
-    main(dirname, verbose=verbose)
-# Processing completed. Processed 2250 diagnoses, added 20879 ranks.
+    verbose = True  # Basic workflow information
+    deep_verbose = False  # Detailed parsing information
+    main(dirname, verbose=verbose, deep_verbose=deep_verbose)
