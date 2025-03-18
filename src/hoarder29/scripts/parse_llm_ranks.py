@@ -1,8 +1,14 @@
 import os
+import sys
+
+# Adjust the system path to include the parent directory
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../'))
+
 from db.utils.db_utils import get_session
 from db.bench29.bench29_models import LlmDifferentialDiagnosis, DifferentialDiagnosis2Rank
 from db.db_queries import get_diagnosis_ranks, add_diagnosis_rank
-from libs.libs import parse_diagnosis_text, filter_files
+from libs.libs import filter_files, get_directories
+from hoarder29.libs.parser_libs import parse_diagnosis_text
 
 def process_diagnosis_into_ranks(session, verbose=False, deep_verbose=False):
     """
@@ -189,18 +195,10 @@ def main(dirname=None, verbose=False, deep_verbose=False):
     # Process all diagnoses
     process_diagnosis_into_ranks(session, verbose=verbose, deep_verbose=deep_verbose)
     
-    # Alternatively, you could process by specific model/prompt:
-    # model_name = "glm4"
-    # prompt_name = "few_shot"
-    # model_id = get_model_id(session, model_name)
-    # prompt_id = get_prompt_id(session, prompt_name)
-    # if model_id and prompt_id:
-    #     process_by_model_prompt(session, model_id=model_id, prompt_id=prompt_id, verbose=verbose, deep_verbose=deep_verbose)
-    
     session.close()
 
 if __name__ == "__main__":
-    dirname = "../../data/prompt_comparison_results/prompt_comparison_results"  # Not used but kept for consistency
+    dirname = "../../data/ramedis_paper/prompt_comparison_results"  # Not used but kept for consistency
     verbose = True  # Basic workflow information
     deep_verbose = False  # Detailed parsing information
     main(dirname, verbose=verbose, deep_verbose=deep_verbose)

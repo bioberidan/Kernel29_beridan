@@ -1,9 +1,14 @@
 import os
-import json
+import sys
 import datetime
+
+# Adjust the system path to include the parent directory
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../'))
+
 from db.utils.db_utils import get_session
 from db.db_queries import get_model_id, get_prompt_id, add_llm_diagnosis
-from libs.libs import get_directories, extract_model_prompt, filter_files
+from libs.libs import filter_files, get_directories, load_json
+from hoarder29.libs.parser_libs import extract_model_prompt
 
 def process_patient_file(session, file_path, model_id, prompt_id, verbose=False):
     """
@@ -23,13 +28,8 @@ def process_patient_file(session, file_path, model_id, prompt_id, verbose=False)
     filename = os.path.basename(file_path)
     
     # Load the JSON data
-    data = None
-    try:
-        with open(file_path, 'r', encoding='utf-8-sig') as f:
-            data = json.load(f)
-    except Exception as e:
-        if verbose:
-            print(f"    Error reading JSON file {filename}: {str(e)}")
+    data = load_json(file_path, encoding='utf-8-sig', verbose=verbose)
+    if data is None:
         return False
         
     if not data:
@@ -39,15 +39,9 @@ def process_patient_file(session, file_path, model_id, prompt_id, verbose=False)
     
     # Find corresponding case in database
     from db.bench29.bench29_models import CasesBench
-    case = None
-    try:
-        case = session.query(CasesBench).filter(
-            CasesBench.source_file_path == filename
-        ).first()
-    except Exception as e:
-        if verbose:
-            print(f"    Error querying database for {filename}: {str(e)}")
-        return False
+    case = session.query(CasesBench).filter(
+        CasesBench.source_file_path == filename
+    ).first()
     
     if not case:
         if verbose:
@@ -55,13 +49,7 @@ def process_patient_file(session, file_path, model_id, prompt_id, verbose=False)
         return False
         
     # Extract prediction diagnosis from data
-    predict_diagnosis = None
-    try:
-        predict_diagnosis = data.get("predict_diagnosis", "")
-    except Exception as e:
-        if verbose:
-            print(f"    Error extracting predict_diagnosis from {filename}: {str(e)}")
-        return False
+    predict_diagnosis = data.get("predict_diagnosis", "")
     
     if not predict_diagnosis:
         if verbose:
@@ -70,17 +58,11 @@ def process_patient_file(session, file_path, model_id, prompt_id, verbose=False)
     
     # Check if this diagnosis already exists
     from db.bench29.bench29_models import LlmDifferentialDiagnosis
-    existing = None
-    try:
-        existing = session.query(LlmDifferentialDiagnosis).filter_by(
-            cases_bench_id=case.id,
-            model_id=model_id,
-            prompt_id=prompt_id
-        ).first()
-    except Exception as e:
-        if verbose:
-            print(f"    Error checking for existing diagnosis: {str(e)}")
-        return False
+    existing = session.query(LlmDifferentialDiagnosis).filter_by(
+        cases_bench_id=case.id,
+        model_id=model_id,
+        prompt_id=prompt_id
+    ).first()
     
     if existing:
         if verbose:
@@ -88,19 +70,14 @@ def process_patient_file(session, file_path, model_id, prompt_id, verbose=False)
         return False
     
     # Add to database
-    try:
-        add_llm_diagnosis(
-            session,
-            case.id,
-            model_id,
-            prompt_id,
-            predict_diagnosis,
-            datetime.datetime.now()
-        )
-    except Exception as e:
-        if verbose:
-            print(f"    Error adding diagnosis to database: {str(e)}")
-        return False
+    add_llm_diagnosis(
+        session,
+        case.id,
+        model_id,
+        prompt_id,
+        predict_diagnosis,
+        datetime.datetime.now()
+    )
     
     if verbose:
         print(f"    Added diagnosis for {filename}")
@@ -196,6 +173,6 @@ def main(dirname, verbose=False):
     session.close()
 
 if __name__ == "__main__":
-    dirname = "../../data/prompt_comparison_results/prompt_comparison_results"  # Change this to your directory path
+    dirname = "../../data/ramedis_paper/prompt_comparison_results"
     verbose = True
     main(dirname, verbose=verbose)
