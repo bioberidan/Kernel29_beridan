@@ -23,6 +23,10 @@ class GroqBaseConfig(BaseModelConfig):
         self.seed = None
         self.tools = None
         self.tool_choice = None
+        if not os.getenv("GROQ_API_KEY"):
+            print("Error: GROQ_API_KEY environment variable is not set.")
+            print("Please set it using: export GROQ_API_KEY=your-api-key")
+            
 
     def get_params(self) -> dict:
         """

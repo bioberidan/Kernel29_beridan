@@ -138,4 +138,4 @@ class BaseLLMCaller(ABC):
         parsed_response = self.format_query(response)
 
         # print(parsed_response)
-        return parsed_response
+        return response, parsed_response

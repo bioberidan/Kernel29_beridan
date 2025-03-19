@@ -1,7 +1,8 @@
 # model_handler.py
 from typing import Dict, Any, List, Optional
-
-from llm_libs.conf.base_conf import CONFIG_REGISTRY #relative import, this will work?
+from dotenv import load_dotenv
+load_dotenv()
+from lapin.conf.base_conf import CONFIG_REGISTRY #relative import, this will work?
 
 class ModelHandler:
     """
